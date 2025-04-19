@@ -281,17 +281,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const itemDescriptionDisplay = document.getElementById('item-description');
     const addToListButton = document.getElementById('add-to-list-button');
     const listErrorMsg = document.getElementById('list-error-message');
+    const addErrorMsg = document.getElementById('add-error-message');
 
     let recipeMeta = []; // To store just names and image paths for dropdown
 
     // --- Fetch Data Files --- 
     Promise.all([
         fetch('recipes.json').then(res => {
-            if (!res.ok) throw new Error(`Failed to load recipes.json: ${res.statusText}`);
+            if (!res.ok) throw new Error(`Failed to load recipes.json: ${res.statusText} (${res.status})`);
             return res.json();
         }),
         fetch('raw_materials.json').then(res => {
-            if (!res.ok) throw new Error(`Failed to load raw_materials.json: ${res.statusText}`);
+            if (!res.ok) throw new Error(`Failed to load raw_materials.json: ${res.statusText} (${res.status})`);
             return res.json();
         })
     ])
@@ -299,14 +300,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // Store full data globally
         window.recipesData = recipeJson;
         window.rawMaterialsSet = new Set(rawMaterialList);
-        console.log("Recipe and raw material data loaded.");
+        console.log("Data loaded.");
 
         // Populate dropdown
-        itemSelect.innerHTML = '<option value="">-- Select an Item --</option>'; 
+        itemSelect.innerHTML = '<option value="">-- Select Item --</option>'; 
         recipeMeta = Object.entries(recipeJson).map(([name, data]) => ({
             name: name,
-            image_path: data.local_image_path, // Use the correct field name
-            description: data.description // Store description too
+            image_path: data.local_image_path,
+            description: data.description
         })).sort((a, b) => a.name.localeCompare(b.name)); // Sort alphabetically
         
         recipeMeta.forEach(recipe => {
@@ -329,7 +330,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => {
         console.error('Error loading data files:', error);
-        errorMessage.textContent = `Error loading necessary data: ${error.message}`;
+        errorMessage.textContent = `Fatal Error: ${error.message}. Could not load data files. Refresh?`;
         itemSelect.innerHTML = '<option value="">Error loading</option>';
         itemSelect.disabled = true;
         addToListButton.disabled = true;
