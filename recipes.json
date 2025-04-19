@@ -1,0 +1,4886 @@
+{
+    "Aftershock": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Amethyst": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Amethyst2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Alucard's Boots": {
+        "description": "Luxurious dark leather, lined with silk and gleaming threads of gold. An attire worthy of a legendary figure.\n\nThis is a cosmetic armor set and grants no attributes",
+        "inputs": {
+            "Cloth": 4,
+            "Coarse Thread": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_PMK01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Alucard's Cloak": {
+        "description": "Luxurious dark leather, lined with silk and gleaming threads of gold. An attire worthy of a legendary figure.\n\nThis is a cosmetic armor set and grants no attributes",
+        "inputs": {
+            "Cloth": 4,
+            "Coarse Thread": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_PMK01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Alucard's Coat": {
+        "description": "Luxurious dark leather, lined with silk and gleaming threads of gold. An attire worthy of a legendary figure.\n\nThis is a cosmetic armor set and grants no attributes",
+        "inputs": {
+            "Cloth": 4,
+            "Coarse Thread": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_PMK01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Alucard's Gloves": {
+        "description": "Luxurious dark leather, lined with silk and gleaming threads of gold. An attire worthy of a legendary figure.\n\nThis is a cosmetic armor set and grants no attributes",
+        "inputs": {
+            "Cloth": 4,
+            "Coarse Thread": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_PMK01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Alucard's Leggings": {
+        "description": "Luxurious dark leather, lined with silk and gleaming threads of gold. An attire worthy of a legendary figure.\n\nThis is a cosmetic armor set and grants no attributes",
+        "inputs": {
+            "Cloth": 4,
+            "Coarse Thread": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_PMK01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Amulet of the Arch-Warlock": {
+        "description": "%10 chance on primary hit to gain Frozen Weapon. Can only trigger once every 10s.",
+        "inputs": {
+            "Blood Merlot Amulet": 1,
+            "Flawless Sapphire": 4,
+            "Power Core": 12
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T08_FrozenCrypt.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Amulet of the Blademaster": {
+        "description": "%10 chance on primary hit to gain Lesser Storm Shield. Can only trigger once every 10s.",
+        "inputs": {
+            "Blood Merlot Amulet": 1,
+            "Flawless Topaz": 4,
+            "Power Core": 12
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T08_Beast.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Amulet of the Crimson Commander": {
+        "description": "%10 chance on primary hit to gain Lesser Blood Rage. Can only trigger once every 10s.",
+        "inputs": {
+            "Blood Merlot Amulet": 1,
+            "Flawless Ruby": 4,
+            "Power Core": 12
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T08_CrimsonSky.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Amulet of the Master Spellweaver": {
+        "description": "%10 chance on primary hit to gain Lesser Phantom Aegis. Can only trigger once every 10s.",
+        "inputs": {
+            "Blood Merlot Amulet": 1,
+            "Flawless Miststone": 4,
+            "Power Core": 12
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T08_Delusion.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Amulet of the Unyielding Charger": {
+        "description": "%10 chance on primary hit to spawn a Skeleton Warrior. Can only trigger once every 10s.",
+        "inputs": {
+            "Blood Merlot Amulet": 1,
+            "Flawless Emerald": 4,
+            "Power Core": 12
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T08_Madness.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Amulet of the Wicked Prophet": {
+        "description": "%10 chance on primary hit to gain Lesser Power Surge. Can only trigger once every 10s.",
+        "inputs": {
+            "Blood Merlot Amulet": 1,
+            "Flawless Amethyst": 4,
+            "Power Core": 12
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T08_WickedProphet.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Ashfolk Helmet": {
+        "description": "No description",
+        "inputs": {
+            "Silver Coin": 550
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Headgear_WildlingHelm.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Ball Lightning": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Topaz": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Topaz4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Banshee": {
+        "description": "Unit that yields Grave Dust, chance for Scourgestone and Spectral Dust.",
+        "inputs": {
+            "Gem Dust": 8,
+            "Plague Brier": 24
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Banshee.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tomb"
+    },
+    "Barrel Disguise": {
+        "description": "Disguise yourself as a barrel, significantly reduces aggro range but reduces movement speed. You can perform a barrel roll stunning any enemy that you roll into. Rolling into a solid object stuns you instead. Taking any damage breaks the effect.\n\nProduced at a Woodworking Bench.",
+        "inputs": {
+            "Reinforced Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BarrelDisguise.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Woodworking Bench"
+    },
+    "Bat Leather": {
+        "description": "Tanned bat hides used to craft armour, bags and various leather items.\n\nProduced at a Advanced Tannery.",
+        "inputs": {
+            "Bat Hide": 20,
+            "Pristine Leather": 4
+        },
+        "local_image_path": "images/items/Item_Ingredient_BatLeather.webp",
+        "output_qty": 2,
+        "rarity": "common",
+        "workstation": "Advanced Tannery"
+    },
+    "Bat Leather Bag": {
+        "description": "A bag increases the amount of items you may carry.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Ghost Yarn": 8
+        },
+        "local_image_path": "images/items/Item_Bag_T06.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Leatherworking Station"
+    },
+    "Bear Head": {
+        "description": "No description",
+        "inputs": {
+            "Silver Coin": 300
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Headgear_BearHead.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Blood Bone Ring": {
+        "description": "Magic Sources increase gear level and boost the power of spells.",
+        "inputs": {
+            "Blood Essence": 16,
+            "Bone Ring": 1
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T02_BloodBoneRing.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Blood Corpse Pile": {
+        "description": "Unit that yields a vast amount of Alchemy resources.",
+        "inputs": {
+            "Bone": 20,
+            "Greater Stygian Shard": 400
+        },
+        "local_image_path": "images/items/Poneti_Icon_Alchemy_02_mortar.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Stygian Summoning Circle"
+    },
+    "Blood Elemental": {
+        "description": "Unit that yields at least 3 Regular Gems and a vast amount of Minerals.",
+        "inputs": {
+            "Gem Dust": 20,
+            "Stygian Shard": 400
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Gems02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Stygian Summoning Circle"
+    },
+    "Blood Essence": {
+        "description": "An energy source distilled from Blood. Vampires use it to control material, to unlock sealed knowledge and to convert humans into obedient servants.",
+        "inputs": {
+            "Rat": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_BloodEssence01.webp",
+        "output_qty": 10,
+        "rarity": "common",
+        "workstation": "Advanced Blood Press"
+    },
+    "Blood Fountain": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Ruby": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Ruby4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Blood Golem": {
+        "description": "Unit that yields at least 3 Flawless Gems and a vast amount of Minerals.",
+        "inputs": {
+            "Gem Dust": 20,
+            "Greater Stygian Shard": 400
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Gems03.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Stygian Summoning Circle"
+    },
+    "Blood Harpy": {
+        "description": "Unit that yields at least 2 Study Books as well as a great amount of Paper and Scrolls.",
+        "inputs": {
+            "Scroll": 4,
+            "Stygian Shard": 400
+        },
+        "local_image_path": "images/items/Poneti_Icon_Book_v2_05_Scholar.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Stygian Summoning Circle"
+    },
+    "Blood Hunter Boots": {
+        "description": "Elegant black leather attire, complemented with pieces of metal armour.",
+        "inputs": {
+            "Hollowfang Boots": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_06_MercilessHollowfang.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Blood Hunter Chestguard": {
+        "description": "Elegant black leather attire, complemented with pieces of metal armour.",
+        "inputs": {
+            "Hollowfang Chestguard": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_06_MercilessHollowfang.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Blood Hunter Gloves": {
+        "description": "Elegant black leather attire, complemented with pieces of metal armour.",
+        "inputs": {
+            "Hollowfang Gloves": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_06_MercilessHollowfang.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Blood Hunter Leggings": {
+        "description": "Elegant black leather attire, complemented with pieces of metal armour.",
+        "inputs": {
+            "Hollowfang Leggings": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_06_MercilessHollowfang.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Blood Jewel Tier 1": {
+        "description": "No description",
+        "inputs": {
+            "Copper Ingot": 8,
+            "Crude Ruby": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Ruby1.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Blood Jewel Tier 2": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Ruby": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Ruby2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Blood Jewel Tier 3": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Ruby": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Ruby3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Blood Jewel Tier 4": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Ruby": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Ruby4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Blood Key": {
+        "description": "A mystical amulet providing the bearer entry into Dracula's Castle.\n\nProduced at an Artisan Table.",
+        "inputs": {
+            "Greater Stygian Shard": 200,
+            "Onyx Tear": 4,
+            "Primal Blood Essence": 4
+        },
+        "local_image_path": "images/items/Item_MagicSource_BloodKey_T01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Blood Merlot Amulet": {
+        "description": "Magic Sources increase gear level and boost the power of spells.",
+        "inputs": {
+            "Blood Merlot": 1,
+            "Dark Silver Ingot": 4,
+            "Radium Alloy": 12
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T07_BloodWineAmulet.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Blood Potion": {
+        "description": "Tap a prisoner on blood at the cost of %30 - %60 health. Increases misery by %10 - %20.",
+        "inputs": {
+            "Empty Glass Bottle": 1
+        },
+        "local_image_path": "images/items/Poneti_Icon_Alchemy_31_bigheal_flask.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Blood Rage": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Ruby": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Ruby3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Blood Rite": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Ruby": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Ruby4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Blood Rose Brew": {
+        "description": "A brew that recovers %40 of your maximum health over 10s. The healing effect is limited when in combat and breaks upon taking damage.",
+        "inputs": {
+            "Blood Rose": 32,
+            "Empty waterskin": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Canteen09.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Blood Rose Potion": {
+        "description": "A potion that recovers %55 of your maximum health over 10s. The healing effect is limited when in combat and breaks upon taking damage.",
+        "inputs": {
+            "Silver Coin": 45
+        },
+        "local_image_path": "images/items/Poneti_Icon_Alchemy_31_BloodRoseBrew_flask.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Blood Rose Seed": {
+        "description": "Sow this seed in a Growing Plot to make it grow.",
+        "inputs": {
+            "Copper Coin": 36
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BloodRosehips.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Blood Treant": {
+        "description": "Unit that yields 4 - 8 Seeds of various types as well as a few Saplings.",
+        "inputs": {
+            "Plant Fibre": 80,
+            "Stygian Shard": 400
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SaplingAppleCursed.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Stygian Summoning Circle"
+    },
+    "Blood Witch": {
+        "description": "Unit that yields at least 2 Athenaeum Books as well as a great amount of Scrolls and Schematics.",
+        "inputs": {
+            "Greater Stygian Shard": 400,
+            "Schematic": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Book_v2_37.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Stygian Summoning Circle"
+    },
+    "Bone Axes": {
+        "description": "Dual-wield axes that deal physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Bone": 16
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneAxe01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Bone Castle Key\nLevel 1": {
+        "description": "By accessing a Level 3 Enemy Castle Heart you may spend Level 3 Castle Keys to trigger different actions.\n\nDisable Defences\nSpend 1 Key to disable enemy walls, doors, waygates and coffins.\nAvailable on standard PvP Settings\n\nDestroy Castle\nSpend 1 Key to permanently destroy the castle.\nAvailable on merciless PvP Settings\n\nClaim Castle\nSpend 3 Keys to seize control of the castle.\nAvailable on merciless PvP Settings",
+        "inputs": {
+            "Blood Essence": 320,
+            "Bone": 400,
+            "Rugged Hide": 400,
+            "Stone": 1200
+        },
+        "local_image_path": "images/items/Poneti_Icon_Loot_69.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Bone Crossbow": {
+        "description": "A ranged weapon that fires long range bolts.",
+        "inputs": {
+            "Bone": 16
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneCrossbow01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Bone Explosion": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Emerald": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Emerald3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Bone Mace": {
+        "description": "A heavy weapon that deals physical damage. Has a greater effect on minerals & rocks.",
+        "inputs": {
+            "Bone": 16
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneMace01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Bone Reaper": {
+        "description": "A two-handed weapon that deals physical damage. Has a greater effect on undead.",
+        "inputs": {
+            "Bone": 16
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneScythe01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Bone Ring": {
+        "description": "Magic Sources increase gear level and boost the power of spells.",
+        "inputs": {
+            "Bone": 32
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T01_BoneRing.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Bone Slashers": {
+        "description": "Dual-wield blades that deal physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Bone": 16
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneSlashers01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Bone Spear": {
+        "description": "A spear with a long-ranged attack that deals physical damage. Has a greater effect on creatures.",
+        "inputs": {
+            "Bone": 16
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneSpear01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Bone Sword": {
+        "description": "An all-round weapon that deals physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Bone": 16
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneSword01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Boneguard Boots": {
+        "description": "Armour made from collecting the bones of the dead, grafting it together with sinew and hide.",
+        "inputs": {
+            "Bone": 16,
+            "Rugged Hide": 32
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_01_Boneguard.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Boneguard Chestguard": {
+        "description": "Armour made from collecting the bones of the dead, grafting it together with sinew and hide.",
+        "inputs": {
+            "Bone": 32
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_01_Boneguard.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Boneguard Gloves": {
+        "description": "Armour made from collecting the bones of the dead, grafting it together with sinew and hide.",
+        "inputs": {
+            "Bone": 16,
+            "Rugged Hide": 32
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_01_Boneguard.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Boneguard Leggings": {
+        "description": "Armour made from collecting the bones of the dead, grafting it together with sinew and hide.",
+        "inputs": {
+            "Bone": 32
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_01_Boneguard.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Brew of Ferocity": {
+        "description": "A brew that increases physical power by 6 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Empty waterskin": 1,
+            "Fish Bone": 1,
+            "Hell\u2019s Clarion": 32
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Canteen_PhysicalBrew_T01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Carpet Roll": {
+        "description": "Artisan component used to craft castle decorations.",
+        "inputs": {
+            "Cloth": 4,
+            "Wool Thread": 1
+        },
+        "local_image_path": "images/items/Poneti_Icon_Tailoring_53_silkbandages1.webp",
+        "output_qty": 2,
+        "rarity": "common",
+        "workstation": "Loom"
+    },
+    "Castle Upkeep": {
+        "description": "No Description",
+        "inputs": {
+            "Blood Essence": 1
+        },
+        "local_image_path": "images/items/Poneti_Icon_Blacksmith_55_iron_chest.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Chaos Barrier": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Amethyst": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Amethyst4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Chaos Jewel Tier 1": {
+        "description": "No description",
+        "inputs": {
+            "Copper Ingot": 8,
+            "Crude Amethyst": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Amethyst1.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Chaos Jewel Tier 2": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Amethyst": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Amethyst2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Chaos Jewel Tier 3": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Amethyst": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Amethyst3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Chaos Jewel Tier 4": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Amethyst": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Amethyst4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Chaos Volley": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Amethyst": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Amethyst4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Charged Battery": {
+        "description": "A battery charged with lightning, useful for crafting advanced technology and items.",
+        "inputs": {
+            "Depleted Battery": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Battery_Full.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Lightning Harvester"
+    },
+    "Chemical Soaked Cloak": {
+        "description": "A cloak grants the wearer protection against the elements.",
+        "inputs": {
+            "Cotton Yarn": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_PlagueMaster02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Chemical Soaked Drape": {
+        "description": "A cloak grants the wearer protection against the elements.",
+        "inputs": {
+            "Cloth": 4,
+            "Leather": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_PlagueMaster01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Chemical Soaked Regalia": {
+        "description": "A cloak grants the wearer protection against the elements.",
+        "inputs": {
+            "Silk": 12,
+            "Spectral Dust": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_PlagueMaster03.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Clay Mold": {
+        "description": "A mold of malleable clay used to construct decorative vases.\n\nProduced at a Grinder.",
+        "inputs": {
+            "Clay": 12,
+            "Filled waterskin": 1
+        },
+        "local_image_path": "images/items/Poneti_Icon_materials_03_bricks.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisans Corner"
+    },
+    "Cloth": {
+        "description": "Tailoring components are used for crafting clothes, armour and cloaks.\n\nProduced at a Loom.",
+        "inputs": {
+            "Plant Fibre": 16,
+            "Pristine Leather": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Tailoring_26_red_clothroll.webp",
+        "output_qty": 8,
+        "rarity": "common",
+        "workstation": "Loom"
+    },
+    "Coarse Thread": {
+        "description": "A sturdy thread spun from plant fibre. Basic material used when tailoring various items.\n\nProduced at a Loom.",
+        "inputs": {
+            "Plant Fibre": 12
+        },
+        "local_image_path": "images/items/Poneti_Icon_Tailoring_03_thread.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Loom"
+    },
+    "Cotton": {
+        "description": "Harvested from Cotton Farms. Used for weaving cloth.",
+        "inputs": {
+            "Plant Fibre": 20
+        },
+        "local_image_path": null,
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Loom" 
+    },
+    "Crimson Thorn": {
+        "description": "No description",
+        "inputs": {
+            "Copper Ingot": 4,
+            "Leather": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Headgear_PlagueMaster.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Cold Snap": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Sapphire": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Sapphire3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Copper Axes": {
+        "description": "Dual-wield axes that deal physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Copper Ingot": 16,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeAxe01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Copper Castle Key\nLevel 2": {
+        "description": "By accessing a Level 3 Enemy Castle Heart you may spend Level 3 Castle Keys to trigger different actions.\n\nDisable Defences\nSpend 1 Key to disable enemy walls, doors, waygates and coffins.\nAvailable on standard PvP Settings\n\nDestroy Castle\nSpend 1 Key to permanently destroy the castle.\nAvailable on merciless PvP Settings\n\nClaim Castle\nSpend 3 Keys to seize control of the castle.\nAvailable on merciless PvP Settings",
+        "inputs": {
+            "Copper Ingot": 80,
+            "Greater Blood Essence": 4,
+            "Leather": 60,
+            "Stone Brick": 240
+        },
+        "local_image_path": "images/items/Poneti_Icon_Blacksmith_43_key.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Copper Coin": {
+        "description": "A plain copper coin. Nowdays only used by the shady dealers of Farbane. Its sides are adorned with the face of the former archbishop of Brighthaven.",
+        "inputs": {
+            "Copper Ingot": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Coin_Copper.webp",
+        "output_qty": 20,
+        "rarity": "common",
+        "workstation": "Fabricator"
+    },
+    "Copper Crossbow": {
+        "description": "A ranged weapon that fires long range bolts.",
+        "inputs": {
+            "Copper Ingot": 16,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeCrossbow01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Copper Ingot": {
+        "description": "Metal component used to craft weapons and armour.\n\nProduced at a Furnace.",
+        "inputs": {
+            "Copper Ore": 20
+        },
+        "local_image_path": "images/items/Poneti_Icon_Mining_52_copper_ingot.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Furnace"
+    },
+    "Copper Longbow": {
+        "description": "A ranged weapon that fires arrows.",
+        "inputs": {
+            "Copper Ingot": 16,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Copper_Bow01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Copper Mace": {
+        "description": "A heavy weapon that deals physical damage. Has a greater effect on minerals & rocks.",
+        "inputs": {
+            "Copper Ingot": 16,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeMace01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Copper Reaper": {
+        "description": "A two-handed weapon that deals physical damage. Has a greater effect on undead.",
+        "inputs": {
+            "Copper Ingot": 16,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeScythe01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Copper Slashers": {
+        "description": "Dual-wield blades that deal physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Copper Ingot": 16,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeSlashers01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Copper Spear": {
+        "description": "A spear with a long-ranged attack that deals physical damage. Has a greater effect on creatures.",
+        "inputs": {
+            "Copper Ingot": 16,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeSpear01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Copper Sword": {
+        "description": "An all-round weapon that deals physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Copper Ingot": 16,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeSword01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Copper Wires": {
+        "description": "Wires useful for electronics.",
+        "inputs": {
+            "Copper Ingot": 4
+        },
+        "local_image_path": "images/items/FantasyIcon_Engineer2051.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Corrupted Skull": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Emerald": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Emerald2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Cotton Yarn": {
+        "description": "Tailoring components are used for crafting clothes, armour and cloaks.\n\nProduced at a Loom.",
+        "inputs": {
+            "Cotton": 16
+        },
+        "local_image_path": "images/items/Poneti_Icon_Tailoring_14_yarn.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Loom"
+    },
+    "Crimson Templar Boots": {
+        "description": "Plated mail draped in the robes of a forgotten order.",
+        "inputs": {
+            "Hollowfang Boots": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_BronzeBattlegear.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Crimson Templar Chestguard": {
+        "description": "Plated mail draped in the robes of a forgotten order.",
+        "inputs": {
+            "Hollowfang Chestguard": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_BronzeBattlegear.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Crimson Templar Gloves": {
+        "description": "Plated mail draped in the robes of a forgotten order.",
+        "inputs": {
+            "Hollowfang Gloves": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_BronzeBattlegear.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Crimson Templar Leggings": {
+        "description": "Plated mail draped in the robes of a forgotten order.",
+        "inputs": {
+            "Hollowfang Leggings": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_BronzeBattlegear.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Crude Amethyst": {
+        "description": "Gemstone used to craft magical objects and weapons.\n\nCan be upgraded to a higher quality at a Gem Cutting Table.",
+        "inputs": {
+            "Copper Coin": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Amethyst1.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Crude Emerald": {
+        "description": "Gemstone used to craft magical objects and weapons.\n\nCan be upgraded to a higher quality at a Gem Cutting Table.",
+        "inputs": {
+            "Copper Coin": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Emerald1.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Crude Miststone": {
+        "description": "Gemstone used to craft magical objects and weapons.\n\nCan be upgraded to a higher quality at a Gem Cutting Table.",
+        "inputs": {
+            "Copper Coin": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Opal1.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Crude Ruby": {
+        "description": "Gemstone used to craft magical objects and weapons.\n\nCan be upgraded to a higher quality at a Gem Cutting Table.",
+        "inputs": {
+            "Copper Coin": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Ruby1.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Crude Sapphire": {
+        "description": "Gemstone used to craft magical objects and weapons.\n\nCan be upgraded to a higher quality at a Gem Cutting Table.",
+        "inputs": {
+            "Copper Coin": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Sapphire1.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Crude Topaz": {
+        "description": "Gemstone used to craft magical objects and weapons.\n\nCan be upgraded to a higher quality at a Gem Cutting Table.",
+        "inputs": {
+            "Copper Coin": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Topaz1.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Crystal Lance": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Sapphire": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Sapphire2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Cyclone": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Topaz": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Topaz3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Dark Magus Boots": {
+        "description": "Elaborate garments only worn among the ranks of practiced sorcerers.",
+        "inputs": {
+            "Hollowfang Boots": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_Tudor.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dark Magus Chestguard": {
+        "description": "Elaborate garments only worn among the ranks of practiced sorcerers.",
+        "inputs": {
+            "Hollowfang Chestguard": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_Tudor.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dark Magus Gloves": {
+        "description": "Elaborate garments only worn among the ranks of practiced sorcerers.",
+        "inputs": {
+            "Hollowfang Gloves": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_Tudor.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dark Magus Leggings": {
+        "description": "Elaborate garments only worn among the ranks of practiced sorcerers.",
+        "inputs": {
+            "Hollowfang Leggings": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_Tudor.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dark Silver Axes": {
+        "description": "Dual-wield axes that deal physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Dark Silver Ingot": 12,
+            "Primal Blood Essence": 1,
+            "Reinforced Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelAxe01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Dark Silver Crossbow": {
+        "description": "A ranged weapon that fires long range bolts.",
+        "inputs": {
+            "Dark Silver Ingot": 12,
+            "Primal Blood Essence": 1,
+            "Reinforced Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelCrossbow01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Dark Silver Greatsword": {
+        "description": "A great heavy sword that deals physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Dark Silver Ingot": 12,
+            "Primal Blood Essence": 1,
+            "Reinforced Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelGreatSword01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Dark Silver Ingot": {
+        "description": "Metal component used to craft weapons, armour and jewels.\n\nProduced at a Advanced Furnace.",
+        "inputs": {
+            "Silver Ore": 20,
+            "Spectral Dust": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Mining_61_darksilver_ingot.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Advanced Furnace"
+    },
+    "Dark Silver Mace": {
+        "description": "A heavy weapon that deals physical damage. Has a greater effect on minerals & rocks.",
+        "inputs": {
+            "Dark Silver Ingot": 12,
+            "Primal Blood Essence": 1,
+            "Reinforced Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelMace01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Dark Silver Pistols": {
+        "description": "Black-powder weapons effective at medium range.",
+        "inputs": {
+            "Dark Silver Ingot": 12,
+            "Primal Blood Essence": 1,
+            "Reinforced Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Steel_Pistol01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Dark Silver Reaper": {
+        "description": "A two-handed weapon that deals physical damage. Has a greater effect on undead.",
+        "inputs": {
+            "Dark Silver Ingot": 12,
+            "Primal Blood Essence": 1,
+            "Reinforced Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelScythe01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Dark Silver Slashers": {
+        "description": "Dual-wield blades that deal physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Dark Silver Ingot": 12,
+            "Primal Blood Essence": 1,
+            "Reinforced Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelSlashers01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Dark Silver Spear": {
+        "description": "A spear with a long-ranged attack that deals physical damage. Has a greater effect on creatures.",
+        "inputs": {
+            "Dark Silver Ingot": 12,
+            "Primal Blood Essence": 1,
+            "Reinforced Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelSpear01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Dark Silver Sword": {
+        "description": "An all-round weapon that deals physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Dark Silver Ingot": 12,
+            "Primal Blood Essence": 1,
+            "Reinforced Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelSword01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Dark Silver Whip": {
+        "description": "A weapon with a piercing attack that deals additional physical damage in an area at mid-range.",
+        "inputs": {
+            "Dark Silver Ingot": 12,
+            "Primal Blood Essence": 1,
+            "Reinforced Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Steel_Whip01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Darksilver Longbow": {
+        "description": "A ranged weapon that fires arrows.",
+        "inputs": {
+            "Dark Silver Ingot": 12,
+            "Primal Blood Essence": 1,
+            "Reinforced Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Steel_Bow01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Dawnthorn Boots": {
+        "description": "An armour of sharp metal pieces sitting on top of quilted garments, inlaid with vampiric motifs.",
+        "inputs": {
+            "Pristine Leather": 12,
+            "Silk": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_07_Dawnthorn.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dawnthorn Chestguard": {
+        "description": "An armour of sharp metal pieces sitting on top of quilted garments, inlaid with vampiric motifs.",
+        "inputs": {
+            "Pristine Leather": 12,
+            "Silk": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_07_Dawnthorn.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dawnthorn Gloves": {
+        "description": "An armour of sharp metal pieces sitting on top of quilted garments, inlaid with vampiric motifs.",
+        "inputs": {
+            "Pristine Leather": 12,
+            "Silk": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_07_Dawnthorn.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dawnthorn Leggings": {
+        "description": "An armour of sharp metal pieces sitting on top of quilted garments, inlaid with vampiric motifs.",
+        "inputs": {
+            "Pristine Leather": 12,
+            "Silk": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_07_Dawnthorn.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Death Knight": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Emerald": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Emerald3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Deer Head": {
+        "description": "No description",
+        "inputs": {
+            "Silver Coin": 300
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Headgear_DeerHead.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Discharge": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Topaz": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Topaz3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Dracula's Boots": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_Dracula.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Dracula's Chestguard": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_Dracula.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Dracula's Dread Boots": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Dread Plate Boots": 1,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_Dracula_Warrior.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Dread Chestguard": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Dread Plate Chestguard": 1,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_Dracula_Warrior.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Dread Gloves": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Dread Plate Gloves": 1,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_Dracula_Warrior.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Dread Leggings": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Dread Plate Leggings": 1,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_Dracula_Warrior.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Gloves": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_Dracula.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Dracula's Grim Boots": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Grim Knight Boots": 1,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_Dracula_Brute.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Grim Chestguard": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Grim Knight Chestguard": 1,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_Dracula_Brute.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Grim Gloves": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Grim Knight Gloves": 1,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_Dracula_Brute.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Grim Leggings": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Grim Knight Leggings": 1,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_Dracula_Brute.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Leggings": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_Dracula.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Dracula's Maleficer Boots": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Maleficer Scholar Boots": 1,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_Dracula_Scholar.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Maleficer Chestguard": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Maleficer Scholar Chestguard": 1,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_Dracula_Scholar.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Maleficer Gloves": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Maleficer Scholar Gloves": 1,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_Dracula_Scholar.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Maleficer Leggings": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Maleficer Scholar Leggings": 1,
+            "Shadow Weave": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_Dracula_Scholar.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Shadow Boots": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Shadow Weave": 12,
+            "Shadowmoon Boots": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_Dracula_Rogue.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Shadow Chestguard": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Shadow Weave": 12,
+            "Shadowmoon Chestguard": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_Dracula_Rogue.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Shadow Gloves": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Shadow Weave": 12,
+            "Shadowmoon Gloves": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_Dracula_Rogue.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dracula's Shadow Leggings": {
+        "description": "Ancient artifact plate of the rarest and sturdiest metals, forged with the most complex of spells, marking you as a paragon of vampiric society. The sign of an immortal ruler.",
+        "inputs": {
+            "Bat Leather": 12,
+            "Shadow Weave": 12,
+            "Shadowmoon Leggings": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_Dracula_Rogue.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dread Plate Boots": {
+        "description": "Fearsome plate armor, handcrafted to inspire fear and awe into your enemies.",
+        "inputs": {
+            "Dawnthorn Boots": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_Noctum.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dread Plate Chestguard": {
+        "description": "Fearsome plate armor, handcrafted to inspire fear and awe into your enemies.",
+        "inputs": {
+            "Dawnthorn Chestguard": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_Noctum.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dread Plate Gloves": {
+        "description": "Fearsome plate armor, handcrafted to inspire fear and awe into your enemies.",
+        "inputs": {
+            "Dawnthorn Gloves": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_Noctum.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dread Plate Leggings": {
+        "description": "Fearsome plate armor, handcrafted to inspire fear and awe into your enemies.",
+        "inputs": {
+            "Dawnthorn Leggings": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_Noctum.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Dusk Caller": {
+        "description": "Summon a swarm of bats to transport a subdued human back to the nearest unoccupied prison cell within your realm.\n\nProduced at an Alchemy Lab.",
+        "inputs": {
+            "Hell\u2019s Clarion": 60,
+            "Scourgestone": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Enchantment_50_rune_stoune.webp",
+        "output_qty": 5,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Duskwatcher Boots": {
+        "description": "Studded leather armor, tactically designed to allow greater dexterity in combat.",
+        "inputs": {
+            "Hollowfang Boots": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_Duskwatcher.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Duskwatcher Chestguard": {
+        "description": "Studded leather armor, tactically designed to allow greater dexterity in combat.",
+        "inputs": {
+            "Hollowfang Chestguard": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_Duskwatcher.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Duskwatcher Gloves": {
+        "description": "Studded leather armor, tactically designed to allow greater dexterity in combat.",
+        "inputs": {
+            "Hollowfang Gloves": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_Duskwatcher.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Duskwatcher Leggings": {
+        "description": "Studded leather armor, tactically designed to allow greater dexterity in combat.",
+        "inputs": {
+            "Hollowfang Leggings": 1,
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_Duskwatcher.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "EMP": {
+        "description": "A device that triggers an electro magnetic pulse when struck. Can be used to temporarily disable electrical sources.",
+        "inputs": {
+            "Iron Ingot": 12,
+            "Power Core": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_EMP.webp",
+        "output_qty": 5,
+        "rarity": "common",
+        "workstation": "Fabricator"
+    },
+    "Empty Glass Bottle": {
+        "description": "An empty glass bottle, useful for creating potions.",
+        "inputs": {
+            "Glass": 8
+        },
+        "local_image_path": "images/items/Poneti_Icon_Alchemy_29_big_flask.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Furnace"
+    },
+    "Empty waterskin": {
+        "description": "An empty waterskin, useful for creating potions.",
+        "inputs": {
+            "Plant Fibre": 16,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Canteen04.webp",
+        "output_qty": 5,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Enchanted Brew": {
+        "description": "A brew that increases spell power by 3 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Empty waterskin": 1,
+            "Fish Bone": 1,
+            "Snow Flower": 32
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Canteen_SpellBrew_T01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Feed Prisoner": {
+        "description": "Reduces the prisoner's misery by %10 - %15",
+        "inputs": {
+            "Rainbow Trout": 1
+        },
+        "local_image_path": "images/items/Poneti_Icon_Cooking_60_oceanfish.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Fire Blossom Seed": {
+        "description": "Sow this seed in a Growing Plot to make it grow.",
+        "inputs": {
+            "Copper Coin": 36
+        },
+        "local_image_path": "images/items/Stunlock_Icon_FireBlossomSeeds.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Fire Resistance Brew": {
+        "description": "A brew that increases fire resistance rating by 50 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Empty waterskin": 1,
+            "Fire Blossom": 40,
+            "Oil": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Canteen07.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Fish Bone": {
+        "description": "Reagent used to craft alchemical potions. Tends to attract vermin.",
+        "inputs": {
+            "Blood Snapper": 1
+        },
+        "local_image_path": "images/items/FantasyIcon_Food2078.webp",
+        "output_qty": 10,
+        "rarity": "common",
+        "workstation": "Advanced Blood Press"
+    },
+    "Fishing Pole": {
+        "description": "Use it to catch fish! Keep an eye out for bubbling water in lakes and streams.\n\nCrafted from Inventory or at a Woodworking Bench.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Wood": 120
+        },
+        "local_image_path": "images/items/Poneti_Icon_Engineering_59_mega_fishingrod.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Woodworking Bench"
+    },
+    "Flawless Amethyst": {
+        "description": "Gemstone used to craft powerful magical objects and weapons.",
+        "inputs": {
+            "Goldsun Coin": 40
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Amethyst3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Flawless Emerald": {
+        "description": "Gemstone used to craft powerful magical objects and weapons.",
+        "inputs": {
+            "Regular Emerald": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Emerald3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Gem Cutting Table"
+    },
+    "Flawless Gemstone": {
+        "description": "No description",
+        "inputs": {
+            "Regular Gemstone": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Gems03.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Gem Cutting Table"
+    },
+    "Flawless Miststone": {
+        "description": "Gemstone used to craft powerful magical objects and weapons.",
+        "inputs": {
+            "Goldsun Coin": 40
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Opal3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Flawless Ruby": {
+        "description": "Gemstone used to craft powerful magical objects and weapons.",
+        "inputs": {
+            "Regular Ruby": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Ruby3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Gem Cutting Table"
+    },
+    "Flawless Sapphire": {
+        "description": "Gemstone used to craft powerful magical objects and weapons.",
+        "inputs": {
+            "Regular Sapphire": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Sapphire3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Gem Cutting Table"
+    },
+    "Flawless Topaz": {
+        "description": "Gemstone used to craft powerful magical objects and weapons.",
+        "inputs": {
+            "Goldsun Coin": 40
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Topaz3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Frost Barrier": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Sapphire": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Sapphire4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Frost Bat": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Sapphire": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Sapphire4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Frost Jewel Tier 1": {
+        "description": "No description",
+        "inputs": {
+            "Copper Ingot": 8,
+            "Crude Sapphire": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Sapphire1.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Frost Jewel Tier 2": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Sapphire": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Sapphire2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Frost Jewel Tier 3": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Sapphire": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Sapphire3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Frost Jewel Tier 4": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Sapphire": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Sapphire4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Garlic Resistance Potion": {
+        "description": "A potion that increases garlic resistance rating by 80 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Silver Coin": 55
+        },
+        "local_image_path": "images/items/Poneti_Icon_Alchemy_22_deadly_poison.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Gem Dust": {
+        "description": "Pulverized gemstones, used to craft magical objects.",
+        "inputs": {
+            "Any Gemstone": 1
+        },
+        "local_image_path": "images/items/Poneti_Icon_Enchantment_02_big_magicdust.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Grinder"
+    },
+    "Ghost Shroom": {
+        "description": "Reagent used to craft alchemical potions and magical objects.",
+        "inputs": {
+            "Cursed Wood": 40
+        },
+        "local_image_path": "images/items/Stunlock_Icon_GhostShroom.webp",
+        "output_qty": 4,
+        "rarity": "common",
+        "workstation": "Sawmill"
+    },
+    "Ghost Shroom Spores": {
+        "description": "Sow this seed in a Growing Plot to make it grow.",
+        "inputs": {
+            "Goldsun Coin": 80
+        },
+        "local_image_path": "images/items/Stunlock_Icon_GhostShroomSpores.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Ghost Yarn": {
+        "description": "A spectral fabric used to craft powerful armour.\n\nProduced at a Advanced Loom.",
+        "inputs": {
+            "Cotton Yarn": 2,
+            "Ghost Shroom": 16,
+            "Wool Thread": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Tailoring_18_ghost_yarn.webp",
+        "output_qty": 2,
+        "rarity": "common",
+        "workstation": "Advanced Loom"
+    },
+    "Ghoul": {
+        "description": "Unit that yields Bones, chance for Grave Dust.",
+        "inputs": {
+            "Mourning Lily": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Ghoul.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tomb"
+    },
+    "Giant Rat": {
+        "description": "Unit that yields Rugged Hides, chance for low grade Seeds",
+        "inputs": {
+            "Fish Bone": 1,
+            "Plant Fibre": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Rat_Giant.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Vermin Nest"
+    },
+    "Glass": {
+        "description": "Material useful in both crafting and construction.\n\nProduced at a Furnace.",
+        "inputs": {
+            "Quartz": 20
+        },
+        "local_image_path": "images/items/ResourceIcon_Glass.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Furnace"
+    },
+    "Gold Ingot": {
+        "description": "Valuable metal component used to craft powerful weapons & magical objects.\n\nProduced at a Advanced Furnace.",
+        "inputs": {
+            "Gold Jewelry": 4,
+            "Sulphur": 1
+        },
+        "local_image_path": "images/items/Poneti_Icon_Mining_54_gold_ingot.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Advanced Furnace"
+    },
+    "Golden Castle Key\nLevel 4/5": {
+        "description": "By accessing a Level 3 Enemy Castle Heart you may spend Level 3 Castle Keys to trigger different actions.\n\nDisable Defences\nSpend 1 Key to disable enemy walls, doors, waygates and coffins.\nAvailable on standard PvP Settings\n\nDestroy Castle\nSpend 1 Key to permanently destroy the castle.\nAvailable on merciless PvP Settings\n\nClaim Castle\nSpend 3 Keys to seize control of the castle.\nAvailable on merciless PvP Settings",
+        "inputs": {
+            "Dark Silver Ingot": 80,
+            "Gold Ingot": 24,
+            "Primal Blood Essence": 12,
+            "Reinforced Plank": 80
+        },
+        "local_image_path": "images/items/Poneti_Icon_Blacksmith_45_key.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Goldsun Coin": {
+        "description": "A coin made of silver and gold from the Church of Luminance, used in trade and to pay church taxes in the city of Brighthaven. Its gold inlay portrays the sun.",
+        "inputs": {
+            "Gold Ingot": 4,
+            "Silver Coin": 40
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Coin_Gold.webp",
+        "output_qty": 40,
+        "rarity": "common",
+        "workstation": "Fabricator"
+    },
+    "Grave Dust": {
+        "description": "A fine powder made from the bones of the dead. Used to craft magical objects and consumable items.\n\nProduced at a Grinder.",
+        "inputs": {
+            "Bone": 64
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_GraveDust.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Grinder"
+    },
+    "Gravedigger Ring": {
+        "description": "Magic Sources increase gear level and boost the power of spells.",
+        "inputs": {
+            "Grave Dust": 12,
+            "Mourning Lily": 32
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T03_GravediggerRing.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Greater Blood Essence": {
+        "description": "An energy source distilled from Blood. Vampires use it to control material, to unlock sealed knowledge and to convert humans into obedient servants.\n\nProduced at a Blood Press.",
+        "inputs": {
+            "Unsullied Heart": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_BloodEssence02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Advanced Blood Press"
+    },
+    "Greater Stygian Shard": {
+        "description": "Shards aglow with energy hailing from the enigmatic shadow realm.",
+        "inputs": {
+            "Stygian Shard": 12
+        },
+        "local_image_path": "images/items/Item_Nethershard_t02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Gem Cutting Table"
+    },
+    "Grim Knight Boots": {
+        "description": "Sturdy plate armor, favoring brute efficiency over intricate design.",
+        "inputs": {
+            "Dawnthorn Boots": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_IronKnight.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Grim Knight Chestguard": {
+        "description": "Sturdy plate armor, favoring brute efficiency over intricate design.",
+        "inputs": {
+            "Dawnthorn Chestguard": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_IronKnight.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Grim Knight Gloves": {
+        "description": "Sturdy plate armor, favoring brute efficiency over intricate design.",
+        "inputs": {
+            "Dawnthorn Gloves": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_IronKnight.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Grim Knight Leggings": {
+        "description": "Sturdy plate armor, favoring brute efficiency over intricate design.",
+        "inputs": {
+            "Dawnthorn Leggings": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_IronKnight.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Grim Ranger Boots": {
+        "description": "Vestments of sleek, tanned leather, reinforced with sturdy threads.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Boots": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_04_MercilessNightstalker.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Grim Ranger Gloves": {
+        "description": "Vestments of sleek, tanned leather, reinforced with sturdy threads.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Gloves": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_04_MercilessNightstalker.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Grim Ranger Leggings": {
+        "description": "Vestments of sleek, tanned leather, reinforced with sturdy threads.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Leggings": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_04_MercilessNightstalker.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Grim Ranger Vest": {
+        "description": "Vestments of sleek, tanned leather, reinforced with sturdy threads.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Vest": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_04_MercilessNightstalker.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Hell's Clarion Spores": {
+        "description": "Sow this seed in a Growing Plot to make it grow.",
+        "inputs": {
+            "Copper Coin": 36
+        },
+        "local_image_path": "images/items/Stunlock_Icon_HellsClarionSpores.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Hollowfang Boots": {
+        "description": "Elegant black leather attire, complemented with pieces of metal armour.",
+        "inputs": {
+            "Cotton Yarn": 12,
+            "Wool Thread": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_05_Hollowfang.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Hollowfang Chestguard": {
+        "description": "Elegant black leather attire, complemented with pieces of metal armour.",
+        "inputs": {
+            "Cotton Yarn": 12,
+            "Wool Thread": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_05_Hollowfang.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Hollowfang Gloves": {
+        "description": "Elegant black leather attire, complemented with pieces of metal armour.",
+        "inputs": {
+            "Cotton Yarn": 12,
+            "Wool Thread": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_05_Hollowfang.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Hollowfang Leggings": {
+        "description": "Elegant black leather attire, complemented with pieces of metal armour.",
+        "inputs": {
+            "Cotton Yarn": 12,
+            "Wool Thread": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_05_Hollowfang.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Holy Resistance Flask": {
+        "description": "A potion that increases holy resistance rating by 75 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Holy Resistance Potion": 1,
+            "Sacred Grapes": 60
+        },
+        "local_image_path": "images/items/Stunlock_Icon_GlassBottle_HolyResistance_T03.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Holy Resistance Potion": {
+        "description": "A potion that increases holy resistance rating by 75 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Empty Glass Bottle": 1,
+            "Grave Dust": 1,
+            "Sunflower": 60
+        },
+        "local_image_path": "images/items/Poneti_Icon_Alchemy_24_energy_potion.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Hunter's Cloak": {
+        "description": "A cloak grants the wearer protection against the elements.",
+        "inputs": {
+            "Cotton Yarn": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_HuntersCloak.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Ice Nova": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Sapphire": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Sapphire2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Illusion Jewel Tier 1": {
+        "description": "No description",
+        "inputs": {
+            "Copper Ingot": 8,
+            "Crude Miststone": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Opal1.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Illusion Jewel Tier 2": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Miststone": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Opal2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Illusion Jewel Tier 3": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Miststone": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Opal3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Illusion Jewel Tier 4": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Miststone": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Opal4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Immortal King's Cloak": {
+        "description": "A cloak grants the wearer protection against the elements.",
+        "inputs": {
+            "Cotton Yarn": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_Variant01b.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Immortal King's Drape": {
+        "description": "A cloak grants the wearer protection against the elements.",
+        "inputs": {
+            "Cloth": 4,
+            "Leather": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_Variant01a.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Immortal King's Greathelm": {
+        "description": "No description",
+        "inputs": {
+            "Copper Ingot": 4,
+            "Leather": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Armor_DraculaHelmet.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Immortal King's Mantle": {
+        "description": "A cloak grants the wearer protection against the elements.",
+        "inputs": {
+            "Silk": 12,
+            "Spectral Dust": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_Variant01c.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Imperial Thread": {
+        "description": "Tailoring components are used for crafting clothes, armour and cloaks.\n\nProduced at a Loom.",
+        "inputs": {
+            "Plague Brier": 12,
+            "Radiant Fibre": 12,
+            "Wool Thread": 1
+        },
+        "local_image_path": "images/items/Poneti_Icon_Tailoring_14_yarn.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Iron Axes": {
+        "description": "Dual-wield axes that deal physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Iron Ingot": 12,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronAxe01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Iron Body": {
+        "description": "Artisan component used to craft castle decorations.",
+        "inputs": {
+            "Iron Ingot": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Blacksmith_01_stick.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Iron Castle Key\nLevel 3": {
+        "description": "By accessing a Level 3 Enemy Castle Heart you may spend Level 3 Castle Keys to trigger different actions.\n\nDisable Defences\nSpend 1 Key to disable enemy walls, doors, waygates and coffins.\nAvailable on standard PvP Settings\n\nDestroy Castle\nSpend 1 Key to permanently destroy the castle.\nAvailable on merciless PvP Settings\n\nClaim Castle\nSpend 3 Keys to seize control of the castle.\nAvailable on merciless PvP Settings",
+        "inputs": {
+            "Gem Dust": 240,
+            "Greater Blood Essence": 20,
+            "Reinforced Plank": 60,
+            "Scourgestone": 80
+        },
+        "local_image_path": "images/items/Poneti_Icon_Blacksmith_44_key.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Iron Crossbow": {
+        "description": "A ranged weapon that fires long range bolts.",
+        "inputs": {
+            "Iron Ingot": 12,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronCrossbow01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Iron Greatsword": {
+        "description": "A great heavy sword that deals physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Iron Ingot": 12,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronGreatSword01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Iron Ingot": {
+        "description": "Metal component used to craft weapons and armour.\n\nProduced at a Furnace.",
+        "inputs": {
+            "Iron Ore": 20
+        },
+        "local_image_path": "images/items/Poneti_Icon_Mining_51_iron_ingot.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Furnace"
+    },
+    "Iron Longbow": {
+        "description": "A ranged weapon that fires arrows.",
+        "inputs": {
+            "Iron Ingot": 12,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Iron_Bow01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Iron Mace": {
+        "description": "A heavy weapon that deals physical damage. Has a greater effect on minerals & rocks.",
+        "inputs": {
+            "Iron Ingot": 12,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronMace01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Iron Pistols": {
+        "description": "Black-powder weapons effective at medium range.",
+        "inputs": {
+            "Iron Ingot": 12,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronPistol01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Iron Reaper": {
+        "description": "A two-handed weapon that deals physical damage. Has a greater effect on undead.",
+        "inputs": {
+            "Iron Ingot": 12,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronScythe01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Iron Slashers": {
+        "description": "Dual-wield blades that deal physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Iron Ingot": 12,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronSlashers01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Iron Spear": {
+        "description": "A spear with a long-ranged attack that deals physical damage. Has a greater effect on creatures.",
+        "inputs": {
+            "Iron Ingot": 12,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronSpear01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Iron Sword": {
+        "description": "An all-round weapon that deals physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Iron Ingot": 12,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronSword01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Iron Whip": {
+        "description": "A weapon with a piercing attack that deals additional physical damage in an area at mid-range.",
+        "inputs": {
+            "Iron Ingot": 12,
+            "Plank": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Iron_Whip01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Irradiant Gruel": {
+        "description": "A brew with blood-mutating effects. Not recommended to drink.",
+        "inputs": {
+            "Mutant Grease": 20,
+            "Plague Brier": 20
+        },
+        "local_image_path": "images/items/Item_Consumable_Canister_IrradiantGruel.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Leather": {
+        "description": "Tanned hide used to craft armour, cloaks and various leather items.\n\nProduced at a Tannery.",
+        "inputs": {
+            "Rugged Hide": 16
+        },
+        "local_image_path": "images/items/Poneti_Icon_skinning_01_piece_of_leather.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Advanced Tannery"
+    },
+    "Leather Bag": {
+        "description": "A bag increases the amount of items you may carry.",
+        "inputs": {
+            "Coarse Thread": 8,
+            "Leather": 8
+        },
+        "local_image_path": "images/items/Item_Bag_T02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Leatherworking Station"
+    },
+    "Lightning Curtain": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Topaz": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Topaz3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Lumberjack's Axes": {
+        "description": "Dual-wield axes that deal physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Silver Coin": 16
+        },
+        "local_image_path": "images/items/Poneti_Icon_Axe_v2_04.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Major Explosive Box": {
+        "description": "A box full of explosives, handle with care. Can be used to destroy Massive Resource Veins, Walls and Doors. More powerful against castle walls.",
+        "inputs": {
+            "Silver Coin": 110
+        },
+        "local_image_path": "images/items/Stunlock_Icon_ExplosiveBox_Major.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Maleficer Scholar Boots": {
+        "description": "Threads of silk with inscribed plated regalia, imbued with intricate spellwork to bolster your magic.",
+        "inputs": {
+            "Dawnthorn Boots": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_CastleLord.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Maleficer Scholar Chestguard": {
+        "description": "Threads of silk with inscribed plated regalia, imbued with intricate spellwork to bolster your magic.",
+        "inputs": {
+            "Dawnthorn Chestguard": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_CastleLord.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Maleficer Scholar Gloves": {
+        "description": "Threads of silk with inscribed plated regalia, imbued with intricate spellwork to bolster your magic.",
+        "inputs": {
+            "Dawnthorn Gloves": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_CastleLord.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Maleficer Scholar Leggings": {
+        "description": "Threads of silk with inscribed plated regalia, imbued with intricate spellwork to bolster your magic.",
+        "inputs": {
+            "Dawnthorn Leggings": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_CastleLord.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Marauder Boots": {
+        "description": "Strong furs, laced together with knotted leather string.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Boots": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_Striker.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Marauder Gloves": {
+        "description": "Strong furs, laced together with knotted leather string.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Gloves": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_Striker.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Marauder Leggings": {
+        "description": "Strong furs, laced together with knotted leather string.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Leggings": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_Striker.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Marauder Vest": {
+        "description": "Strong furs, laced together with knotted leather string.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Vest": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_Striker.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Merciless Copper Axes": {
+        "description": "Dual-wield axes that deal physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Copper Axes": 1,
+            "Crude Ruby": 2,
+            "Leather": 4,
+            "Whetstone": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeAxe02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Merciless Copper Crossbow": {
+        "description": "A ranged weapon that fires long range bolts.",
+        "inputs": {
+            "Copper Crossbow": 1,
+            "Crude Topaz": 2,
+            "Leather": 4,
+            "Whetstone": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeCrossbow02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Merciless Copper Longbow": {
+        "description": "A ranged weapon that fires arrows.",
+        "inputs": {
+            "Copper Longbow": 1,
+            "Crude Amethyst": 2,
+            "Leather": 4,
+            "Whetstone": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Copper_Bow02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Merciless Copper Mace": {
+        "description": "A heavy weapon that deals physical damage. Has a greater effect on minerals & rocks.",
+        "inputs": {
+            "Copper Mace": 1,
+            "Crude Topaz": 2,
+            "Leather": 4,
+            "Whetstone": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeMace02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Merciless Copper Reaper": {
+        "description": "A two-handed weapon that deals physical damage. Has a greater effect on undead.",
+        "inputs": {
+            "Copper Reaper": 1,
+            "Crude Miststone": 2,
+            "Leather": 4,
+            "Whetstone": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeScythe02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Merciless Copper Slashers": {
+        "description": "Dual-wield blades that deal physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Copper Slashers": 1,
+            "Crude Amethyst": 2,
+            "Leather": 4,
+            "Whetstone": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeSlashers02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Merciless Copper Spear": {
+        "description": "A spear with a long-ranged attack that deals physical damage. Has a greater effect on creatures.",
+        "inputs": {
+            "Copper Spear": 1,
+            "Crude Emerald": 2,
+            "Leather": 4,
+            "Whetstone": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeSpear02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Merciless Copper Sword": {
+        "description": "An all-round weapon that deals physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Copper Sword": 1,
+            "Crude Sapphire": 2,
+            "Leather": 4,
+            "Whetstone": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BronzeSword02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Merciless Iron Axes": {
+        "description": "Dual-wield axes that deal physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Greater Blood Essence": 4,
+            "Iron Axes": 1,
+            "Regular Ruby": 1,
+            "Reinforced Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronAxe02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Merciless Iron Crossbow": {
+        "description": "A ranged weapon that fires long range bolts.",
+        "inputs": {
+            "Greater Blood Essence": 4,
+            "Iron Crossbow": 1,
+            "Regular Topaz": 1,
+            "Reinforced Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronCrossbow02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Merciless Iron Greatsword": {
+        "description": "A great heavy sword that deals physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Greater Blood Essence": 4,
+            "Iron Greatsword": 1,
+            "Regular Sapphire": 1,
+            "Reinforced Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronGreatSword02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Merciless Iron Longbow": {
+        "description": "A ranged weapon that fires arrows.",
+        "inputs": {
+            "Greater Blood Essence": 4,
+            "Iron Longbow": 1,
+            "Regular Amethyst": 1,
+            "Reinforced Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Iron_Bow02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Merciless Iron Mace": {
+        "description": "A heavy weapon that deals physical damage. Has a greater effect on minerals & rocks.",
+        "inputs": {
+            "Greater Blood Essence": 4,
+            "Iron Mace": 1,
+            "Regular Topaz": 1,
+            "Reinforced Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronMace02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Merciless Iron Pistols": {
+        "description": "Black-powder weapons effective at medium range.",
+        "inputs": {
+            "Greater Blood Essence": 4,
+            "Iron Pistols": 1,
+            "Regular Ruby": 1,
+            "Reinforced Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronPistol02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Merciless Iron Reaper": {
+        "description": "A two-handed weapon that deals physical damage. Has a greater effect on undead.",
+        "inputs": {
+            "Greater Blood Essence": 4,
+            "Iron Reaper": 1,
+            "Regular Miststone": 1,
+            "Reinforced Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronScythe02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Merciless Iron Slashers": {
+        "description": "Dual-wield blades that deal physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Greater Blood Essence": 4,
+            "Iron Slashers": 1,
+            "Regular Amethyst": 1,
+            "Reinforced Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronSlashers02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Merciless Iron Spear": {
+        "description": "A spear with a long-ranged attack that deals physical damage. Has a greater effect on creatures.",
+        "inputs": {
+            "Greater Blood Essence": 4,
+            "Iron Spear": 1,
+            "Regular Emerald": 1,
+            "Reinforced Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronSpear02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Merciless Iron Sword": {
+        "description": "An all-round weapon that deals physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Greater Blood Essence": 4,
+            "Iron Sword": 1,
+            "Regular Sapphire": 1,
+            "Reinforced Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_IronSword02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Merciless Iron Whip": {
+        "description": "A weapon with a piercing attack that deals additional physical damage in an area at mid-range.",
+        "inputs": {
+            "Greater Blood Essence": 4,
+            "Iron Whip": 1,
+            "Regular Miststone": 1,
+            "Reinforced Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Iron_Whip02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Smithy"
+    },
+    "Midnight Ball Gown": {
+        "description": "This shimmering gown exudes an air of ethereal enchantment, befitting the most elegant vampires gracing the ballroom.\n\nThis is a cosmetic armor set and grants no attributes",
+        "inputs": {
+            "Cloth": 12,
+            "Wool Thread": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_BallGown.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Midnight Nobleman Pants": {
+        "description": "This exquisite ensemble exudes an aura of aristocratic elegance, tailored with the finest velvet.\n\nThis is a cosmetic armor set and grants no attributes",
+        "inputs": {
+            "Cloth": 12,
+            "Wool Thread": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_Suit01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Midnight Nobleman Suit": {
+        "description": "This exquisite ensemble exudes an aura of aristocratic elegance, tailored with the finest velvet.\n\nThis is a cosmetic armor set and grants no attributes",
+        "inputs": {
+            "Cloth": 12,
+            "Wool Thread": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_Suit01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Miner's Mace": {
+        "description": "A heavy weapon that deals physical damage. Has a greater effect on minerals & rocks.",
+        "inputs": {
+            "Silver Coin": 16
+        },
+        "local_image_path": "images/items/Poneti_Icon_Hammer_30.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Minor Explosive Box": {
+        "description": "A box full of explosives, handle with care. Can be used to destroy Massive Resource Veins, Walls and Doors.",
+        "inputs": {
+            "Silver Coin": 40
+        },
+        "local_image_path": "images/items/Stunlock_Icon_ExplosiveBox_Minor.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Minor Garlic Resistance Brew": {
+        "description": "A brew that increases garlic resistance rating by 40 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Silver Coin": 25
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Canteen02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Minor Sun Resistance Brew": {
+        "description": "A brew that increases sun resistance rating by 25 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Blood Rose": 20,
+            "Empty waterskin": 1,
+            "Mourning Lily": 20
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Canteen06.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Mist Trance": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Miststone": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Opal4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Mitre": {
+        "description": "No description",
+        "inputs": {
+            "Silver Coin": 550
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Headgear_GreatBishopHat.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Mosquito": {
+        "description": "Unit that yields Pristine Hide, spawns with a random blood type.",
+        "inputs": {
+            "Fish Bone": 1,
+            "Plague Brier": 40
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Mosquito.webp",
+        "output_qty": 3,
+        "rarity": "common",
+        "workstation": "Vermin Nest"
+    },
+    "Mountain Peak Bag": {
+        "description": "A bag increases the amount of items you may carry.",
+        "inputs": {
+            "Thick Leather": 12,
+            "Wool Thread": 4
+        },
+        "local_image_path": "images/items/Item_Bag_T04.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Leatherworking Station"
+    },
+    "Mourning Lily Seed": {
+        "description": "Sow this seed in a Growing Plot to make it grow.",
+        "inputs": {
+            "Copper Coin": 36
+        },
+        "local_image_path": "images/items/Stunlock_Icon_MourningLilySeeds.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Mutant Grease": {
+        "description": "Mutated grease used for tanning.",
+        "inputs": {
+            "Gloom Wood": 40
+        },
+        "local_image_path": "images/items/Item_Ingredient_MutantGrease.webp",
+        "output_qty": 4,
+        "rarity": "common",
+        "workstation": "Sawmill"
+    },
+    "Mutated Rat": {
+        "description": "Unit that yields Mutant Grease.",
+        "inputs": {
+            "Grave Dust": 4,
+            "Sludge-filled Canister": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Rat_Mutant.webp",
+        "output_qty": 6,
+        "rarity": "common",
+        "workstation": "Vermin Nest"
+    },
+    "Necromancer\u2019s Mitre": {
+        "description": "No description",
+        "inputs": {
+            "Silver Coin": 200
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Headgear_BishopHat.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Nibbles the Putrid Rat": {
+        "description": "A giant deadly putrid rat. The blood of this rat could be useful...",
+        "inputs": {
+            "Grave Dust": 4,
+            "Unsullied Heart": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Rat_VBlood.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Vermin Nest"
+    },
+    "Nightstalker Boots": {
+        "description": "Vestments of sleek, tanned leather, reinforced with sturdy threads.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_03_Nightstalker.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Nightstalker Gloves": {
+        "description": "Vestments of sleek, tanned leather, reinforced with sturdy threads.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_03_Nightstalker.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Nightstalker Leggings": {
+        "description": "Vestments of sleek, tanned leather, reinforced with sturdy threads.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_03_Nightstalker.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Nightstalker Vest": {
+        "description": "Vestments of sleek, tanned leather, reinforced with sturdy threads.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Leather": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_03_Nightstalker.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Obsidian": {
+        "description": "A dense dark mineral.\n\nRefined at a Gem Cutting Table.",
+        "inputs": {
+            "Gem Dust": 20,
+            "Radium Alloy": 4,
+            "Scourgestone": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Jewelry_09_blackcrystal.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Gem Cutting Table"
+    },
+    "Oil": {
+        "description": "A greasy oil used for tanning.",
+        "inputs": {
+            "Hallow Wood": 40
+        },
+        "local_image_path": "images/items/FantasyIcon_Potion205.webp",
+        "output_qty": 4,
+        "rarity": "common",
+        "workstation": "Sawmill"
+    },
+    "Onyx Tear": {
+        "description": "A black material forged by blood, gold and power. Used to restore the most powerful of weapons.\n\nProduced at an Anvil.",
+        "inputs": {
+            "Blood Crystal": 120,
+            "Gold Ingot": 4,
+            "Power Core": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Enchantment_61_runeponeti.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Painting Frame": {
+        "description": "Artisan component used to craft castle decorations.",
+        "inputs": {
+            "Plank": 4
+        },
+        "local_image_path": "images/items/FantasyIcon_Engineer2079.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Woodworking Bench"
+    },
+    "Paper": {
+        "description": "Used to uncover new technology at a Research Desk.\n\nProduced at a Paper Press.",
+        "inputs": {
+            "Plant Fibre": 4,
+            "Sawdust": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Enchantment_21_parchment.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Paper Press"
+    },
+    "Pendant of the Dawnrunner": {
+        "description": "%10 chance on primary hit to inflict Condemn. Can only trigger once every 4s.",
+        "inputs": {
+            "Glass": 16,
+            "Regular Emerald": 4,
+            "Scourgestone Pendant": 1
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T06_EmeraldNecklace.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Pendant of the Duskwatcher": {
+        "description": "%10 chance on primary hit to inflict Static. Can only trigger once every 4s.",
+        "inputs": {
+            "Glass": 16,
+            "Regular Topaz": 4,
+            "Scourgestone Pendant": 1
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T06_TopazAmulet.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Pendant of the Knight": {
+        "description": "%10 chance on primary hit to inflict Leech. Can only trigger once every 4s.",
+        "inputs": {
+            "Glass": 16,
+            "Regular Ruby": 4,
+            "Scourgestone Pendant": 1
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T06_RubyPendant.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Pendant of the Sorcerer": {
+        "description": "%10 chance on primary hit to inflict Ignite. Can only trigger once every 4s.",
+        "inputs": {
+            "Glass": 16,
+            "Regular Amethyst": 4,
+            "Scourgestone Pendant": 1
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T06_AmethystPendant.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Pendant of the Spellweaver": {
+        "description": "%10 chance on primary hit to inflict Weaken. Can only trigger once every 4s.",
+        "inputs": {
+            "Glass": 16,
+            "Regular Miststone": 4,
+            "Scourgestone Pendant": 1
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T06_MistStoneNecklace.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Pendant of the Warlock": {
+        "description": "%10 chance on primary hit to inflict Chill. Can only trigger once every 4s.",
+        "inputs": {
+            "Glass": 16,
+            "Regular Sapphire": 4,
+            "Scourgestone Pendant": 1
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T06_SapphirePendant.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Phantom Aegis": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Miststone": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Opal4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Phantom's Veil": {
+        "description": "A cloak grants the wearer protection against the elements.",
+        "inputs": {
+            "Silk": 12,
+            "Spectral Dust": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_PhantomsCloak.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Pilgrim\u2019s Hat": {
+        "description": "No description",
+        "inputs": {
+            "Silver Coin": 200
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Headgear_PilgrimHat.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Plague Brier Seeds": {
+        "description": "Sow this seed in a Growing Plot to make it grow.",
+        "inputs": {
+            "Goldsun Coin": 80
+        },
+        "local_image_path": "images/items/Stunlock_Icon_PlagueBrierSeeds.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Plague Chemist\u2019s Saddle": {
+        "description": "A fine saddle that increases mount speed by 1 and acceleration by 1. Can be equipped on a Vampire Horse.\n\nAlters the visuals of your Vampire Horse.",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Item_Saddle_Gloomrot_DLC.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Leatherworking Station"
+    },
+    "Plague Doctor Mask": {
+        "description": "No description",
+        "inputs": {
+            "Copper Ingot": 4,
+            "Leather": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Headgear_PlagueMaster.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Plated Boneguard Boots": {
+        "description": "Armour made from collecting the bones of the dead, grafting it together with sinew and hide.",
+        "inputs": {
+            "Boneguard Boots": 1,
+            "Rugged Hide": 64
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_02_PlatedBoneguard.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Plated Boneguard Chestguard": {
+        "description": "Armour made from collecting the bones of the dead, grafting it together with sinew and hide.",
+        "inputs": {
+            "Boneguard Chestguard": 1,
+            "Rugged Hide": 64
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_02_PlatedBoneguard.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Plated Boneguard Gloves": {
+        "description": "Armour made from collecting the bones of the dead, grafting it together with sinew and hide.",
+        "inputs": {
+            "Boneguard Gloves": 1,
+            "Rugged Hide": 64
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_02_PlatedBoneguard.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Plated Boneguard Leggings": {
+        "description": "Armour made from collecting the bones of the dead, grafting it together with sinew and hide.",
+        "inputs": {
+            "Boneguard Leggings": 1,
+            "Rugged Hide": 64
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_02_PlatedBoneguard.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Polarity Shift": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Topaz": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Topaz3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Pollen": {
+        "description": "A powdery substance useful for dyeing and strengthening threads & fabrics.\n\nRefined at a Grinder.",
+        "inputs": {
+            "Fire Blossom": 20
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Pollen.webp",
+        "output_qty": 10,
+        "rarity": "common",
+        "workstation": "Grinder"
+    },
+    "Potion of Rage": {
+        "description": "A brew that increases physical power by 6 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Empty Glass Bottle": 1,
+            "Fish Bone": 1,
+            "Hell\u2019s Clarion": 60,
+            "Plague Brier": 60
+        },
+        "local_image_path": "images/items/Stunlock_Icon_GlassBottle_PhysicalBrew_T02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Power Core": {
+        "description": "An object that holds an immense amount of energy.",
+        "inputs": {
+            "Charged Battery": 4,
+            "Radium Alloy": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_PowerCore.webp",
+        "output_qty": 2,
+        "rarity": "common",
+        "workstation": "Fabricator"
+    },
+    "Power Surge": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Amethyst": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Amethyst2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Primal Blood Essence": {
+        "description": "An energy source distilled from Blood. Vampires use it to control material, to unlock sealed knowledge and to convert humans into obedient servants.\n\nProduced at a Advanced Blood Press.",
+        "inputs": {
+            "Exquisite Heart": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_BloodEssence04.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Advanced Blood Press"
+    },
+    "Pristine Leather": {
+        "description": "Tanned hide used to craft armour, cloaks and various leather items.\n\nProduced at a Tannery.",
+        "inputs": {
+            "Mutant Grease": 20,
+            "Pristine Hide": 20
+        },
+        "local_image_path": "images/items/Poneti_Icon_skinning_04_skin.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Advanced Tannery"
+    },
+    "Pristine Leather Bag": {
+        "description": "A bag increases the amount of items you may carry.",
+        "inputs": {
+            "Pristine Leather": 12,
+            "Radium Alloy": 4
+        },
+        "local_image_path": "images/items/Item_Bag_T05.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Leatherworking Station"
+    },
+    "Radium Alloy": {
+        "description": "A radiant material emitting powerful energy.\n\nRefined at a Furnace.",
+        "inputs": {
+            "Sludge-filled Canister": 1,
+            "Sulphur": 4,
+            "Tech Scrap": 60
+        },
+        "local_image_path": "images/items/Poneti_Icon_Blacksmith_05_stick1.webp",
+        "output_qty": 4,
+        "rarity": "common",
+        "workstation": "Furnace"
+    },
+    "Rat": {
+        "description": "Can be consumed to gain a small amount of blood, alters your blood type to frailed.",
+        "inputs": {
+            "Bone": 20
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Rat.webp",
+        "output_qty": 5,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Razer Hood": {
+        "description": "No description",
+        "inputs": {
+            "Cloth": 8,
+            "Crude Emerald": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Headgear_Razer.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Inventory Crafting Tab"
+    },
+    "Razer Serpent Cloak": {
+        "description": "A cloak grants the wearer protection against the elements.",
+        "inputs": {
+            "Cotton Yarn": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_Razer02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Razer Serpent Mantle": {
+        "description": "A cloak grants the wearer protection against the elements.",
+        "inputs": {
+            "Silk": 12,
+            "Spectral Dust": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_Razer03.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Razer Serpent Wrap": {
+        "description": "A cloak grants the wearer protection against the elements.",
+        "inputs": {
+            "Cloth": 4,
+            "Leather": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_Razer01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Regular Amethyst": {
+        "description": "Gemstone used to craft magical objects and weapons.\n\nCan be upgraded to a higher quality at a Gem Cutting Table.",
+        "inputs": {
+            "Crude Amethyst": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Amethyst2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Gem Cutting Table"
+    },
+    "Regular Emerald": {
+        "description": "Gemstone used to craft magical objects and weapons.\n\nCan be upgraded to a higher quality at a Gem Cutting Table.",
+        "inputs": {
+            "Silver Coin": 18
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Emerald2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Regular Gemstone": {
+        "description": "No description",
+        "inputs": {
+            "Crude Gemstone": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Gems02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Gem Cutting Table"
+    },
+    "Regular Miststone": {
+        "description": "Gemstone used to craft magical objects and weapons.\n\nCan be upgraded to a higher quality at a Gem Cutting Table.",
+        "inputs": {
+            "Crude Miststone": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Opal2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Gem Cutting Table"
+    },
+    "Regular Ruby": {
+        "description": "Gemstone used to craft magical objects and weapons.\n\nCan be upgraded to a higher quality at a Gem Cutting Table.",
+        "inputs": {
+            "Silver Coin": 18
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Ruby2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Regular Sapphire": {
+        "description": "Gemstone used to craft magical objects and weapons.\n\nCan be upgraded to a higher quality at a Gem Cutting Table.",
+        "inputs": {
+            "Silver Coin": 18
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Sapphire2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Regular Topaz": {
+        "description": "Gemstone used to craft magical objects and weapons.\n\nCan be upgraded to a higher quality at a Gem Cutting Table.",
+        "inputs": {
+            "Crude Topaz": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Gem_Topaz2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Gem Cutting Table"
+    },
+    "Reinforced Bone Axes": {
+        "description": "Dual-wield axes that deal physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Bone Axes": 1,
+            "Plank": 4,
+            "Stone": 128
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneAxe02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Reinforced Bone Crossbow": {
+        "description": "A ranged weapon that fires long range bolts.",
+        "inputs": {
+            "Bone Crossbow": 1,
+            "Plank": 4,
+            "Stone": 128
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneCrossbow02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Reinforced Bone Mace": {
+        "description": "A heavy weapon that deals physical damage. Has a greater effect on minerals & rocks.",
+        "inputs": {
+            "Bone Mace": 1,
+            "Plank": 4,
+            "Stone": 128
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneMace02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Reinforced Bone Reaper": {
+        "description": "A two-handed weapon that deals physical damage. Has a greater effect on undead.",
+        "inputs": {
+            "Bone Reaper": 1,
+            "Plank": 4,
+            "Stone": 128
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneScythe02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Reinforced Bone Slashers": {
+        "description": "Dual-wield blades that deal physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Bone Slashers": 1,
+            "Plank": 4,
+            "Stone": 128
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneSlashers02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Reinforced Bone Spear": {
+        "description": "A spear with a long-ranged attack that deals physical damage. Has a greater effect on creatures.",
+        "inputs": {
+            "Bone Spear": 1,
+            "Plank": 4,
+            "Stone": 128
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneSpear02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Reinforced Bone Sword": {
+        "description": "An all-round weapon that deals physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Bone Sword": 1,
+            "Plank": 4,
+            "Stone": 128
+        },
+        "local_image_path": "images/items/Stunlock_Icon_BoneSword02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Reinforced Plank": {
+        "description": "Woodworking component used to craft weapons and castle structures.\n\nProduced at a Sawmill.",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Plank": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Res_04_Reinforced.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Sawmill"
+    },
+    "Ring of the Dawnrunner": {
+        "description": "Magic Sources increase gear level and boost the power of spells.",
+        "inputs": {
+            "Crude Emerald": 4,
+            "Gravedigger Ring": 1,
+            "Greater Blood Essence": 1
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T04_EmberChain.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Ring of the Duskwatcher": {
+        "description": "Magic Sources increase gear level and boost the power of spells.",
+        "inputs": {
+            "Crude Topaz": 4,
+            "Gravedigger Ring": 1,
+            "Greater Blood Essence": 1
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T04_Duskwatcher.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Ring of the Spellweaver": {
+        "description": "Magic Sources increase gear level and boost the power of spells.",
+        "inputs": {
+            "Crude Miststone": 4,
+            "Gravedigger Ring": 1,
+            "Greater Blood Essence": 1
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T04_MistSignet.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Ring of the Warlock": {
+        "description": "Magic Sources increase gear level and boost the power of spells.",
+        "inputs": {
+            "Crude Sapphire": 4,
+            "Gravedigger Ring": 1,
+            "Greater Blood Essence": 1
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T04_FrozenEye.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Rowdain's Steed": {
+        "description": "A fine saddle that increases mount speed by 1 and acceleration by 1. Can be equipped on a Vampire Horse.\n\nAlters the visuals of your Vampire Horse.",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Item_Saddle_PMK.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Leatherworking Station"
+    },
+    "Sanguine Axes": {
+        "description": "Dual-wield axes that deal physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Dark Silver Axes": 1,
+            "Flawless Ruby": 1,
+            "Gold Ingot": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelAxe02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Sanguine Coil": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Ruby": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Ruby4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Sanguine Crossbow": {
+        "description": "A ranged weapon that fires long range bolts.",
+        "inputs": {
+            "Dark Silver Crossbow": 1,
+            "Flawless Topaz": 1,
+            "Gold Ingot": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelCrossbow02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Sanguine Greatsword": {
+        "description": "A great heavy sword that deals physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Dark Silver Greatsword": 1,
+            "Flawless Sapphire": 1,
+            "Gold Ingot": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelGreatSword02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Sanguine Longbow": {
+        "description": "A ranged weapon that fires arrows.",
+        "inputs": {
+            "Darksilver Longbow": 1,
+            "Flawless Amethyst": 1,
+            "Gold Ingot": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Steel_Bow02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Sanguine Mace": {
+        "description": "A heavy weapon that deals physical damage. Has a greater effect on minerals & rocks.",
+        "inputs": {
+            "Dark Silver Mace": 1,
+            "Flawless Topaz": 1,
+            "Gold Ingot": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelMace02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Sanguine Pistols": {
+        "description": "Black-powder weapons effective at medium range.",
+        "inputs": {
+            "Dark Silver Pistols": 1,
+            "Flawless Ruby": 1,
+            "Gold Ingot": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Steel_Pistol02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Sanguine Reaper": {
+        "description": "A two-handed weapon that deals physical damage. Has a greater effect on undead.",
+        "inputs": {
+            "Dark Silver Reaper": 1,
+            "Flawless Miststone": 1,
+            "Gold Ingot": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelScythe02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Sanguine Slashers": {
+        "description": "Dual-wield blades that deal physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Dark Silver Slashers": 1,
+            "Flawless Amethyst": 1,
+            "Gold Ingot": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelSlashers02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Sanguine Spear": {
+        "description": "A spear with a long-ranged attack that deals physical damage. Has a greater effect on creatures.",
+        "inputs": {
+            "Dark Silver Spear": 1,
+            "Flawless Emerald": 1,
+            "Gold Ingot": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelSpear02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Sanguine Sword": {
+        "description": "An all-round weapon that deals physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Dark Silver Sword": 1,
+            "Flawless Sapphire": 1,
+            "Gold Ingot": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelSword02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Sanguine Whip": {
+        "description": "A weapon with a piercing attack that deals additional physical damage in an area at mid-range.",
+        "inputs": {
+            "Dark Silver Whip": 1,
+            "Flawless Miststone": 1,
+            "Gold Ingot": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Steel_Whip02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Anvil"
+    },
+    "Sawdust": {
+        "description": "Residue from processing wood.",
+        "inputs": {
+            "Wood": 20
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Sawdust.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Sawmill"
+    },
+    "Schematic": {
+        "description": "Used to uncover new technology at a Athenaeum.\n\nProduced at a Paper Press.",
+        "inputs": {
+            "Scroll": 16,
+            "Tech Scrap": 40
+        },
+        "local_image_path": "images/items/Poneti_Icon_materials_14_drawing.webp",
+        "output_qty": 12,
+        "rarity": "common",
+        "workstation": "Paper Press"
+    },
+    "Scourgestone": {
+        "description": "Magical component used for crafting magical objects and consumable items.\n\nProduced at a Furnace.",
+        "inputs": {
+            "Grave Dust": 4,
+            "Whetstone": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Jewelry_19_fellcrystal.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Furnace"
+    },
+    "Scourgestone Pendant": {
+        "description": "Magic Sources increase gear level and boost the power of spells.",
+        "inputs": {
+            "Gem Dust": 24,
+            "Scourgestone": 8
+        },
+        "local_image_path": "images/items/Item_MagicSource_General_T05_Relic.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Artisan Table"
+    },
+    "Scroll": {
+        "description": "Used to uncover new technology at a Study.\n\nProduced at a Paper Press.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Paper": 8
+        },
+        "local_image_path": "images/items/Poneti_Icon_Enchantment_22_scroll1.webp",
+        "output_qty": 4,
+        "rarity": "common",
+        "workstation": "Paper Press"
+    },
+    "Sculptured Wood": {
+        "description": "Artisan component used to craft castle decorations.",
+        "inputs": {
+            "Plank": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_SculpturedWood.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Woodworking Bench"
+    },
+    "Shadewalker Boots": {
+        "description": "Flexible cloth and leather, ideal for nimble fighting.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Boots": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_BanditGear.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Shadewalker Gloves": {
+        "description": "Flexible cloth and leather, ideal for nimble fighting.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Gloves": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_BanditGear.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Shadewalker Leggings": {
+        "description": "Flexible cloth and leather, ideal for nimble fighting.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Leggings": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_BanditGear.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Shadewalker Vest": {
+        "description": "Flexible cloth and leather, ideal for nimble fighting.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Vest": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_BanditGear.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Shadow Axes": {
+        "description": "Dual-wield axes that deal physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Dark Silver Ingot": 24,
+            "Reinforced Plank": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelAxe02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Shadow Crossbow": {
+        "description": "A ranged weapon that fires long range bolts.",
+        "inputs": {
+            "Dark Silver Ingot": 24,
+            "Reinforced Plank": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelCrossbow02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Shadow Greatsword": {
+        "description": "A great heavy sword that deals physical damage. Has a greater effect on wood.",
+        "inputs": {
+            "Dark Silver Ingot": 24,
+            "Reinforced Plank": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_DarksilverGreatSword01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Shadow Longbow": {
+        "description": "A ranged weapon that fires arrows.",
+        "inputs": {
+            "Dark Silver Ingot": 24,
+            "Reinforced Plank": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Steel_Bow03.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Shadow Mace": {
+        "description": "A heavy weapon that deals physical damage. Has a greater effect on minerals & rocks.",
+        "inputs": {
+            "Dark Silver Ingot": 24,
+            "Reinforced Plank": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelMace02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Shadow Reaper": {
+        "description": "A two-handed weapon that deals physical damage. Has a greater effect on undead.",
+        "inputs": {
+            "Dark Silver Ingot": 24,
+            "Reinforced Plank": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelScythe02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Shadow Slashers": {
+        "description": "Dual-wield blades that deal physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Dark Silver Ingot": 24,
+            "Reinforced Plank": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelSlashers02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Shadow Spear": {
+        "description": "A spear with a long-ranged attack that deals physical damage. Has a greater effect on creatures.",
+        "inputs": {
+            "Dark Silver Ingot": 24,
+            "Reinforced Plank": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelSpear02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Shadow Sword": {
+        "description": "An all-round weapon that deals physical damage. Has a greater effect on vegetation and thickets.",
+        "inputs": {
+            "Dark Silver Ingot": 24,
+            "Reinforced Plank": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SteelSword02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Shadow Weave": {
+        "description": "A black fabric used to craft the most powerful armour.\n\nProduced at a Advanced Loom.",
+        "inputs": {
+            "Ghost Yarn": 4,
+            "Silk": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Tailoring_40_demonic_cloth.webp",
+        "output_qty": 2,
+        "rarity": "common",
+        "workstation": "Advanced Loom"
+    },
+    "Shadow Whip": {
+        "description": "A weapon with a piercing attack that deals additional physical damage in an area at mid-range.",
+        "inputs": {
+            "Dark Silver Ingot": 24,
+            "Reinforced Plank": 12
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Steel_Whip03.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Shadowbolt": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Ruby": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Ruby4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Shadowmoon Boots": {
+        "description": "Armour of dark leather garments and crimson silk with pieces of gleaming metal and gold.",
+        "inputs": {
+            "Dawnthorn Boots": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_08_Shadowmoon.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Shadowmoon Chestguard": {
+        "description": "Armour of dark leather garments and crimson silk with pieces of gleaming metal and gold.",
+        "inputs": {
+            "Dawnthorn Chestguard": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_08_Shadowmoon.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Shadowmoon Gloves": {
+        "description": "Armour of dark leather garments and crimson silk with pieces of gleaming metal and gold.",
+        "inputs": {
+            "Dawnthorn Gloves": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_08_Shadowmoon.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Shadowmoon Leggings": {
+        "description": "Armour of dark leather garments and crimson silk with pieces of gleaming metal and gold.",
+        "inputs": {
+            "Dawnthorn Leggings": 1,
+            "Ghost Yarn": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_08_Shadowmoon.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Shroud of the Forest": {
+        "description": "Makes the wearer immune to the Curse of the Forest.\n\nCrafted from Inventory or at a Tailoring Bench.",
+        "inputs": {
+            "Ghost Shroom": 20,
+            "Plant Fibre": 200,
+            "Pristine Hide": 200
+        },
+        "local_image_path": "images/items/Poneti_Icon_cloak_30.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tailoring Bench"
+    },
+    "Siege Golem Stone": {
+        "description": "Place the Siege Stone in an uncontested location. It takes 150s for the stone to activate. When activated you can interact with it to transform into a Siege Golem for up to 300s allowing you to break into stone structures. You can absorb a set amount of damage before the form breaks, the amount of damage you can absorb scales based on the health of the Siege Stone.\n\nDepending on server settings the placement of a Siege Stone may be announced to other players and may be visible for everyone on the map.",
+        "inputs": {
+            "Obsidian": 8,
+            "Primal Blood Essence": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SiegeGolemStone.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Gem Cutting Table"
+    },
+    "Silk": {
+        "description": "Tailoring components are used for crafting clothes, armour and cloaks.\n\nProduced at a Loom.",
+        "inputs": {
+            "Cloth": 4,
+            "Silkworm": 4
+        },
+        "local_image_path": "images/items/Poneti_Icon_Tailoring_22_blue_clothroll.webp",
+        "output_qty": 2,
+        "rarity": "common",
+        "workstation": "Loom"
+    },
+    "Silkworm": {
+        "description": "Reagent used for crafting.",
+        "inputs": {
+            "Golden River Bass": 1,
+            "Grave Dust": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Silkworm.webp",
+        "output_qty": 2,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Silver Coin": {
+        "description": "The common coin in Dunley Farmlands, made of silver to ward off vampires. Fittingly, it\u2019s stamped with the visage of Solarus the Immaculate.",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Silver Ore": 60
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Coin_Silver.webp",
+        "output_qty": 20,
+        "rarity": "common",
+        "workstation": "Fabricator"
+    },
+    "Silver Ingot": {
+        "description": "Metal component used to craft weapons and armour.\n\nProduced at a Furnace.",
+        "inputs": {
+            "Silver Ore": 20
+        },
+        "local_image_path": "images/items/Poneti_Icon_Loot_176.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Silver Resistance Brew": {
+        "description": "A brew that increases silver resistance rating by 15 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Empty waterskin": 1,
+            "Snow Flower": 32
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Canteen10.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Silver Resistance Potion": {
+        "description": "A potion that increases silver resistance rating by 50 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Empty Glass Bottle": 1,
+            "Plague Brier": 40
+        },
+        "local_image_path": "images/items/Stunlock_Icon_GlassBottle_SilverResistance_T03.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Silver Thread Bag": {
+        "description": "A bag increases the amount of items you may carry.",
+        "inputs": {
+            "Leather": 12,
+            "Silver Coin": 8,
+            "Wool Thread": 4
+        },
+        "local_image_path": "images/items/Item_Bag_T03.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Leatherworking Station"
+    },
+    "Skeleton": {
+        "description": "Unit that yields Bone.",
+        "inputs": {
+            "Blood Rose": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Skeleton.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tomb"
+    },
+    "Skeleton Priest": {
+        "description": "Unit that yields Bones, chance for Scourgestone and Grave Dust.",
+        "inputs": {
+            "Gem Dust": 4,
+            "Sunflower": 24
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_SkeletonPriest.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Tomb"
+    },
+    "Sludge-filled Canister": {
+        "description": "A canister filled with toxic sludge. Not recommended to drink.",
+        "inputs": {
+            "Glass": 4,
+            "Iron Ingot": 1,
+            "Mutant Grease": 4
+        },
+        "local_image_path": "images/items/FantasyIcon_EngineerAddon_CanisterSludge.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Fabricator"
+    },
+    "Snow Flower Seed": {
+        "description": "Sow this seed in a Growing Plot to make it grow.",
+        "inputs": {
+            "Copper Coin": 36
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SnowFlowerSeeds.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "City Gem Vendor"
+    },
+    "Soul Shard of Dracula": {
+        "description": "%20 chance on primary hit to inflict Vampiric Curse. Can only trigger once every 8s.\n\nReplaces your Ultimate Ability with Blood Storm.\n\nSoul Shards lose durability over time and can only be repaired by feeding on Primal Blood Souls during Rift Incursions.\n\nPvP Settings - Unique Soul Shards\nWhen this setting is enabled, only one Soul Shard of each type may exist and Soul Shards are permanently destroyed if not repaired.",
+        "inputs": {},
+        "local_image_path": "images/items/Item_MagicSource_SoulShardOfDracula.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Soul Shard of Solarus": {
+        "description": "%10 chance on primary hit to spawn a Death Knight. Can only trigger once every 10s.\n\nReplaces your Ultimate Ability with Fallen Angel.\n\nSoul Shards lose durability over time and can only be repaired by feeding on Primal Blood Souls during Rift Incursions.\n\nPvP Settings - Unique Soul Shards\nWhen this setting is enabled, only one Soul Shard of each type may exist and Soul Shards are permanently destroyed if not repaired.",
+        "inputs": {},
+        "local_image_path": "images/items/Item_MagicSource_SoulShardOfSolarus.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Soul Shard of the Monster": {
+        "description": "%20 chance on primary hit to trigger Chain Lightning.\n\nReplaces your Ultimate Ability with Eye of the Storm.\n\nSoul Shards lose durability over time and can only be repaired by feeding on Primal Blood Souls during Rift Incursions.\n\nPvP Settings - Unique Soul Shards\nWhen this setting is enabled, only one Soul Shard of each type may exist and Soul Shards are permanently destroyed if not repaired.",
+        "inputs": {},
+        "local_image_path": "images/items/Item_MagicSource_SoulShardOfTheMonster.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Soul Shard of the Winged Horror": {
+        "description": "%20 chance on primary hit to trigger a Chaos Explosion igniting all nearby enemies.\n\nReplaces your Ultimate Ability with Voidquake Vortex.\n\nSoul Shards lose durability over time and can only be repaired by feeding on Primal Blood Souls during Rift Incursions.\n\nPvP Settings - Unique Soul Shards\nWhen this setting is enabled, only one Soul Shard of each type may exist and Soul Shards are permanently destroyed if not repaired.",
+        "inputs": {},
+        "local_image_path": "images/items/Item_MagicSource_SoulShardOfWingedHorror.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Soulburn": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Emerald": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Emerald3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Spectral Dust": {
+        "description": "A powder sparkling with ethereal energy. Used to craft magical objects and consumable items.\n\nProduced at a Advanced Grinder.",
+        "inputs": {
+            "Ghost Crystal": 32,
+            "Scourgestone": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_SpectralDust.webp",
+        "output_qty": 4,
+        "rarity": "common",
+        "workstation": "Advanced Grinder"
+    },
+    "Spectral Wolf": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Miststone": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Opal3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Spiderling": {
+        "description": "Unit that yields Silk Worm.",
+        "inputs": {
+            "Fish Bone": 1,
+            "Mutant Grease": 20
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Recipe_Spiderling.webp",
+        "output_qty": 6,
+        "rarity": "common",
+        "workstation": "Vermin Nest"
+    },
+    "Stone Body": {
+        "description": "A large block of stone used to construct decorative castle features.\n\nProduced at a Grinder.",
+        "inputs": {
+            "Clay": 12,
+            "Stone Brick": 4
+        },
+        "local_image_path": "images/items/FantasyIcon_Stone_Gray.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Grinder"
+    },
+    "Stone Dust": {
+        "description": "Residue from processing stone.\n\nRefined at a Smelter.",
+        "inputs": {
+            "Stone": 12
+        },
+        "local_image_path": "images/items/Poneti_Icon_Res_08.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Grinder"
+    },
+    "Storm Jewel Tier 1": {
+        "description": "No description",
+        "inputs": {
+            "Copper Ingot": 8,
+            "Crude Topaz": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Topaz1.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Storm Jewel Tier 2": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Topaz": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Topaz2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Storm Jewel Tier 3": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Topaz": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Topaz3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Storm Jewel Tier 4": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Topaz": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Topaz4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Sulphur": {
+        "description": "A highly combustible material used to craft explosives.\n\nProduced at a Furnace.",
+        "inputs": {
+            "Sulphur Ore": 20
+        },
+        "local_image_path": "images/items/Poneti_Icon_Enchantment_01_big_magicdust_yellow2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Furnace"
+    },
+    "Sunflower Seed": {
+        "description": "Sow this seed in a Growing Plot to make it grow.",
+        "inputs": {
+            "Silver Coin": 48
+        },
+        "local_image_path": "images/items/Stunlock_Icon_SunflowerSeeds.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Thick Leather": {
+        "description": "Tanned hide used to craft armour, cloaks and various leather items.\n\nProduced at a Tannery.",
+        "inputs": {
+            "Oil": 1,
+            "Thick Hide": 16
+        },
+        "local_image_path": "images/items/Poneti_Icon_skinning_03_very_thick_skin.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Advanced Tannery"
+    },
+    "Traveller's Wrap": {
+        "description": "A cloak grants the wearer protection against the elements.",
+        "inputs": {
+            "Cloth": 4,
+            "Leather": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Cloak_TravelersCloak.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Unholy Jewel Tier 1": {
+        "description": "No description",
+        "inputs": {
+            "Copper Ingot": 8,
+            "Crude Emerald": 8
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Emerald1.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Unholy Jewel Tier 2": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Emerald": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Emerald2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Unholy Jewel Tier 3": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Emerald": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Emerald3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Unholy Jewel Tier 4": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Emerald": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Emerald4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Vampire Horse Saddle": {
+        "description": "A fine saddle that increases mount speed by 1 and acceleration by 1. Can be equipped on a Vampire Horse.",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Thick Leather": 8
+        },
+        "local_image_path": "images/items/Item_Saddle_Basic.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Leatherworking Station"
+    },
+    "Vampiric Brew": {
+        "description": "A brew that increases Spell Leech by %10 and Blood Type Efficiency by %5 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Bleeding Heart": 80,
+            "Empty Glass Bottle": 1,
+            "Greater Blood Essence": 1
+        },
+        "local_image_path": "images/items/Poneti_Icon_Potion_08.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Vampiric Curse": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Ruby": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Ruby2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Vampiric Dust": {
+        "description": "A powder sparkling with vampiric energy. Used to craft powerful vampiric artifacts.\n\nProduced at a Advanced Grinder.",
+        "inputs": {
+            "Bleeding Heart": 8,
+            "Blood Crystal": 40
+        },
+        "local_image_path": "images/items/Poneti_Icon_Enchantment_03_big_magicdust.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Veil of Blood": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Ruby": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Ruby4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Veil of Bones": {
+        "description": "No description",
+        "inputs": {
+            "Dark Silver Ingot": 4,
+            "Flawless Emerald": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Emerald3.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Veil of Chaos": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Amethyst": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Amethyst2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Veil of Frost": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Sapphire": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Sapphire4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Veil of Illusion": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Miststone": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Opal2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Veil of Storm": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Topaz": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Topaz4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Vermin Salve": {
+        "description": "A salve that recovers %35 of your maximum health over 15s. The healing effect is limited when in combat and breaks upon taking damage.",
+        "inputs": {
+            "Bone": 20,
+            "Plant Fibre": 32,
+            "Rat": 1
+        },
+        "local_image_path": "images/items/FantasyIcon_MagicItem20105.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Void": {
+        "description": "No description",
+        "inputs": {
+            "Flawless Amethyst": 4,
+            "Greater Stygian Shard": 320
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Amethyst4.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Ward of the Damned": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Emerald": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Emerald2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Warlock Boots": {
+        "description": "Elegant robes inscribed with runes of power.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Boots": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Boots_Scholar.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Warlock Gloves": {
+        "description": "Elegant robes inscribed with runes of power.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Gloves": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Gloves_Scholar.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Warlock Leggings": {
+        "description": "Elegant robes inscribed with runes of power.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Leggings": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Legs_Scholar.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Warlock Vest": {
+        "description": "Elegant robes inscribed with runes of power.",
+        "inputs": {
+            "Coarse Thread": 4,
+            "Copper Ingot": 8,
+            "Leather": 4,
+            "Nightstalker Vest": 1
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Chest_Scholar.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Simple Workbench"
+    },
+    "Whetstone": {
+        "description": "A stone used to sharpen weapons and tools.\n\nProduced at a Furnace.",
+        "inputs": {
+            "Copper Ingot": 1,
+            "Stone Dust": 12
+        },
+        "local_image_path": "images/items/Poneti_Icon_Blacksmith_22_grindstone.webp",
+        "output_qty": 2,
+        "rarity": "common",
+        "workstation": "Furnace"
+    },
+    "Witch Potion": {
+        "description": "A brew that increases spell power by 3 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Empty Glass Bottle": 1,
+            "Fish Bone": 1,
+            "Sacred Grapes": 60,
+            "Snow Flower": 60
+        },
+        "local_image_path": "images/items/Stunlock_Icon_GlassBottle_SpellBrew_T02.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    },
+    "Wolf Head": {
+        "description": "No description",
+        "inputs": {
+            "Silver Coin": 300
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Headgear_WolfHead.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Wool Thread": {
+        "description": "Tailoring components are used for crafting clothes, armour and cloaks.\n\nProduced at a Loom.",
+        "inputs": {
+            "Cloth": 1,
+            "Coarse Thread": 4
+        },
+        "local_image_path": "images/items/FantasyIcon_ResourceAndCraftAddon2056.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Loom"
+    },
+    "Wraith Spear": {
+        "description": "No description",
+        "inputs": {
+            "Iron Ingot": 4,
+            "Regular Miststone": 4
+        },
+        "local_image_path": "images/items/Stunlock_Icon_Item_Jewel_Opal2.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Unknown"
+    },
+    "Wrangler\u2019s Potion": {
+        "description": "A potion that increases your movement speed when mounted by %15 for 60 minutes.\n\nEffect persist through death.",
+        "inputs": {
+            "Empty Glass Bottle": 1,
+            "Fire Blossom": 60
+        },
+        "local_image_path": "images/items/Stunlock_Icon_GlassBottle_WranglersTea_T01.webp",
+        "output_qty": 1,
+        "rarity": "common",
+        "workstation": "Alchemy Table"
+    }
+}

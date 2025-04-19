@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #5a2a2a;
+    margin-bottom: 30px;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Split into input and display */
+    gap: 40px;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-section select,
+.input-section input[type="number"],
+.input-section button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.input-section button {
+    background-color: #7a3a3a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.input-section button:hover {
+    background-color: #5a2a2a;
+}
+
+.display-section {
+    border-left: 1px solid #eee;
+    padding-left: 40px;
+}
+
+#item-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#item-info h2 {
+    margin-top: 0;
+    color: #555;
+}
+
+#item-image {
+    max-width: 128px;
+    max-height: 128px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    background-color: #f9f9f9;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#item-description {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+    font-size: 0.9em;
+    white-space: pre-wrap; /* Preserve line breaks from description */
+}
+
+#results-section h2 {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+#results-list {
+    list-style: none;
+    padding: 0;
+}
+
+#results-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.error {
+    color: #d9534f; /* Red color for errors */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .calculator {
+        grid-template-columns: 1fr; /* Stack columns on smaller screens */
+        gap: 20px;
+    }
+    .display-section {
+        border-left: none;
+        padding-left: 0;
+        margin-top: 30px;
+        border-top: 1px solid #eee;
+        padding-top: 30px;
+    }
+} 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V Rising Crafting Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>V Rising Crafting Calculator</h1>
+
+    <div class="calculator">
+        <label for="item-select">Select Item:</label>
+        <select id="item-select" name="item">
+            <option value="">Loading items...</option>
+            <!-- Items will be populated by JavaScript -->
+        </select>
+
+        <label for="quantity-input">Quantity:</label>
+        <input type="number" id="quantity-input" name="quantity" value="1" min="1">
+
+        <button id="calculate-button">Calculate Costs</button>
+    </div>
+
+    <div id="results-container">
+        <h2>Base Material Costs:</h2>
+        <ul id="results-list"></ul>
+        <p id="error-message" class="error"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
