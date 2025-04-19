@@ -226,20 +226,27 @@ function removeItem(itemName) {
      renderTotalMaterials();
 }
 
+// Function to attach listeners to dynamically created elements in the shopping list
 function addShoppingListEventListeners() {
-    document.querySelectorAll('.decrease-qty-btn').forEach(button => {
+    const listContainer = document.getElementById('shopping-list-items');
+    if (!listContainer) return; // Safety check
+
+    listContainer.querySelectorAll('.decrease-qty-btn').forEach(button => {
+        // Remove old listener before adding new one to prevent duplicates
+        button.onclick = null;
         button.onclick = (e) => {
             const itemName = e.target.dataset.item;
             const currentQuantity = window.shoppingList.get(itemName) || 1;
             if (currentQuantity > 1) {
                updateItemQuantity(itemName, currentQuantity - 1);
             } else {
-               removeItem(itemName); // Remove if quantity becomes 0
+               removeItem(itemName); // Remove if quantity becomes 0 or less
             }
         };
     });
 
-    document.querySelectorAll('.increase-qty-btn').forEach(button => {
+    listContainer.querySelectorAll('.increase-qty-btn').forEach(button => {
+        button.onclick = null;
         button.onclick = (e) => {
             const itemName = e.target.dataset.item;
             const currentQuantity = window.shoppingList.get(itemName) || 0;
@@ -247,175 +254,109 @@ function addShoppingListEventListeners() {
         };
     });
 
-    document.querySelectorAll('.list-quantity-input').forEach(input => {
-        input.onchange = (e) => { // Use onchange to capture final value
+    listContainer.querySelectorAll('.list-quantity-input').forEach(input => {
+        input.onchange = null;
+        input.onblur = null; // Remove old listeners
+        input.onchange = (e) => { 
             const itemName = e.target.dataset.item;
             updateItemQuantity(itemName, e.target.value);
         };
-         input.onblur = (e) => { // Also update on blur if user clicks away
+         input.onblur = (e) => { 
              const itemName = e.target.dataset.item;
              updateItemQuantity(itemName, e.target.value);
          };
     });
 
-    document.querySelectorAll('.remove-item-btn').forEach(button => {
+    listContainer.querySelectorAll('.remove-item-btn').forEach(button => {
+        button.onclick = null;
         button.onclick = (e) => {
-            const itemName = e.target.closest('[data-item-name]').dataset.itemName; // Get item name from parent LI
-            removeItem(itemName);
+            // Use closest to ensure we get the item name even if click is on icon inside button
+            const itemName = e.target.closest('[data-item-name]')?.dataset.itemName; 
+             if (itemName) {
+                removeItem(itemName);
+             } else {
+                 console.error('Could not find item name for remove button');
+             }
         };
     });
 }
 
 // --- Initialization ---
 document.addEventListener('DOMContentLoaded', () => {
+    console.log("DOM fully loaded and parsed");
+
+    // Select critical elements needed immediately or for error display
     const itemSelect = document.getElementById('item-select');
-    const quantityInput = document.getElementById('quantity-input');
-    const calculateButton = document.getElementById('calculate-button');
-    const resultsList = document.getElementById('results-list');
-    const errorMessage = document.getElementById('error-message');
-    const itemImage = document.getElementById('item-image');
-    const selectedItemNameDisplay = document.getElementById('selected-item-name');
-    const itemDescriptionDisplay = document.getElementById('item-description');
-    const addToListButton = document.getElementById('add-to-list-button');
     const listErrorMsg = document.getElementById('list-error-message');
     const addErrorMsg = document.getElementById('add-error-message');
+    const addToListButton = document.getElementById('add-to-list-button'); 
 
-    let recipeMeta = []; // To store just names and image paths for dropdown
+    // Initial UI state checks
+    if (!itemSelect || !addToListButton || !listErrorMsg || !addErrorMsg) {
+        console.error("Fatal Error: One or more critical UI elements are missing!");
+        document.body.innerHTML = '<p class="text-red-500 p-4">Fatal Error: UI elements missing. Cannot initialize calculator.</p>';
+        return; // Stop execution if essential elements are missing
+    }
 
-    // Disable button initially until data loads
-    if (addToListButton) addToListButton.disabled = true;
+    addToListButton.disabled = true; // Disable button until data loads
+    itemSelect.innerHTML = '<option value="">Loading data...</option>'; // Initial loading message
 
-    // Fetch data and populate initial dropdown
+    // Fetch data
     Promise.all([
-        fetch('recipes.json').then(res => {
-            if (!res.ok) throw new Error(`Failed to load recipes.json: ${res.statusText} (${res.status})`);
-            return res.json();
-        }),
-        fetch('raw_materials.json').then(res => {
-            if (!res.ok) throw new Error(`Failed to load raw_materials.json: ${res.statusText} (${res.status})`);
-            return res.json();
-        })
+        fetch('recipes.json')
+           .then(res => {
+                if (!res.ok) throw new Error(`recipes.json: ${res.statusText} (${res.status})`);
+                return res.json();
+            }),
+        fetch('raw_materials.json')
+           .then(res => {
+                if (!res.ok) throw new Error(`raw_materials.json: ${res.statusText} (${res.status})`);
+                return res.json();
+            })
     ])
     .then(([recipeJson, rawMaterialList]) => {
+        console.log("Data fetch successful");
         window.recipesData = recipeJson;
         window.rawMaterialsSet = new Set(rawMaterialList);
-        console.log("Data loaded.");
 
+        // Prepare metadata for dropdown
         window.recipeMeta = Object.entries(recipeJson).map(([name, data]) => ({
             name: name,
             image_path: data.local_image_path,
             description: data.description
         })).sort((a, b) => a.name.localeCompare(b.name));
 
-        itemSelect.innerHTML = '<option value="">-- Select Item --</option>';
+        // Populate dropdown
+        itemSelect.innerHTML = '<option value="">-- Select Item --</option>'; // Clear loading message
         window.recipeMeta.forEach(recipe => {
             const option = document.createElement('option');
             option.value = recipe.name;
             option.textContent = recipe.name;
             itemSelect.appendChild(option);
         });
-        
-        // Enable the add button now that data is loaded
-        if (addToListButton) addToListButton.disabled = false;
-        
-        // Add the event listener HERE, after data is loaded and button is known to exist
-        if (addToListButton) {
-            addToListButton.addEventListener('click', handleAddItem);
-        } else {
-             console.error("Could not find the 'Add to List' button element.");
-             if(listErrorMsg) listErrorMsg.textContent = "Error: UI element missing.";
-        }
 
-        // Initial render 
-        renderShoppingList(); 
+        // Enable interaction now that data is loaded
+        addToListButton.disabled = false;
+        addToListButton.addEventListener('click', handleAddItem);
+        console.log("Add button listener attached.");
+
+        // Initial render of lists
+        renderShoppingList();
         renderTotalMaterials();
+        console.log("Initial render complete.");
 
     })
     .catch(error => {
         console.error('Error loading data files:', error);
-        const mainErrorDisplay = addErrorMsg || listErrorMsg || document.body; 
-        mainErrorDisplay.textContent = `Fatal Error: ${error.message}. Could not load data files. Refresh?`;
-        itemSelect.innerHTML = '<option value="">Error loading</option>';
+        const errorTarget = addErrorMsg || listErrorMsg || document.body;
+        errorTarget.textContent = `Fatal Error loading data: ${error.message}. Please refresh.`;
+        errorTarget.classList.remove('h-4'); // Ensure error message is visible
+        itemSelect.innerHTML = '<option value="">Error</option>';
         itemSelect.disabled = true;
-        if (addToListButton) addToListButton.disabled = true; // Keep disabled on error
+        addToListButton.disabled = true;
     });
 
-    // --- Event Listeners --- 
+    // NO other listeners should be attached here at the top level
+    console.log("Initialization script finished.");
 
-    // Event listener for item selection change
-    itemSelect.addEventListener('change', () => {
-        const selectedOption = itemSelect.options[itemSelect.selectedIndex];
-        const imagePath = selectedOption.dataset.imagePath;
-        const description = selectedOption.dataset.description;
-        const itemName = selectedOption.value;
-
-        if (imagePath && imagePath !== 'null') { // Check for null string too
-            itemImage.src = imagePath; // Direct relative path now
-            itemImage.alt = itemName;
-            itemImage.style.display = 'block';
-        } else {
-            itemImage.style.display = 'none';
-            itemImage.src = "";
-            itemImage.alt = "";
-        }
-        
-        selectedItemNameDisplay.textContent = itemName || "Select an item";
-        itemDescriptionDisplay.textContent = description || ""; // Show description
-
-        // Clear previous results when item changes
-        resultsList.innerHTML = '';
-        errorMessage.textContent = '';
-    });
-
-    // Event listener for calculate button
-    calculateButton.addEventListener('click', () => {
-        const selectedItem = itemSelect.value;
-        const quantity = quantityInput.value;
-
-        resultsList.innerHTML = '';
-        errorMessage.textContent = '';
-
-        if (!selectedItem) {
-            errorMessage.textContent = 'Please select an item.';
-            return;
-        }
-        const quantityNum = parseInt(quantity);
-        if (!quantityNum || quantityNum <= 0) {
-            errorMessage.textContent = 'Please enter a valid quantity (greater than 0).';
-            return;
-        }
-        
-        // Ensure data is loaded
-        if (!window.recipesData || Object.keys(window.recipesData).length === 0 || !window.rawMaterialsSet || window.rawMaterialsSet.size === 0) {
-             errorMessage.textContent = 'Data not loaded yet, please wait or refresh.';
-             return;
-        }
-
-        // Show loading state 
-        resultsList.innerHTML = '<li>Calculating...</li>';
-
-        // Perform calculation using JS function
-        try {
-            const baseMaterialsResult = getBaseMaterials(selectedItem, quantityNum, window.recipesData, window.rawMaterialsSet);
-            
-            resultsList.innerHTML = ''; // Clear loading
-            if (baseMaterialsResult && Object.keys(baseMaterialsResult).length > 0) {
-                const sortedMaterials = Object.entries(baseMaterialsResult).sort((a, b) => a[0].localeCompare(b[0]));
-                
-                sortedMaterials.forEach(([material, amount]) => {
-                    if (amount > 0) { // Only show materials with amount > 0
-                       const li = document.createElement('li');
-                       li.textContent = `${material}: ${amount}`;
-                       resultsList.appendChild(li);
-                    }
-                });
-            } else {
-                resultsList.innerHTML = '<li>No base materials required (or item is itself a base material).</li>';
-            }
-        } catch (error) {
-            console.error('Error during calculation:', error);
-            resultsList.innerHTML = ''; // Clear loading
-            errorMessage.textContent = `Calculation error: ${error.message}`;
-        }
-    });
-}); 
+}); // End of DOMContentLoaded 
