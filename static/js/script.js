@@ -92,6 +92,89 @@ function getBaseMaterials(itemName, quantity, recipes, rawMaterials) {
     return finalMaterials;
 }
 
+// --- Crafting Steps Calculation and Rendering ---
+function getCraftingSteps(itemName, quantity, recipes, rawMaterials, steps = [], parentMultiplier = 1, visited = new Set()) {
+    // Prevent cycles
+    if (visited.has(itemName)) return steps;
+    visited.add(itemName);
+
+    if (rawMaterials.has(itemName) || !recipes[itemName]) {
+        // Raw material or unknown, no crafting step needed
+        return steps;
+    }
+
+    const recipe = recipes[itemName];
+    const outputQty = recipe.output_qty || 1;
+    const craftCount = Math.ceil((quantity * parentMultiplier) / outputQty);
+    const inputs = recipe.inputs || {};
+    const workstation = recipe.workstation || 'Unknown';
+
+    // Add this crafting step
+    steps.push({
+        item: itemName,
+        quantity: craftCount * outputQty,
+        inputs: Object.entries(inputs).map(([name, qty]) => ({ name, qty: qty * craftCount })),
+        workstation
+    });
+
+    // Recurse for each input
+    for (const [inputName, inputQty] of Object.entries(inputs)) {
+        getCraftingSteps(inputName, inputQty, recipes, rawMaterials, steps, craftCount, visited);
+    }
+    return steps;
+}
+
+function getOrderedCraftingSteps(shoppingList, recipes, rawMaterials) {
+    // Use a map to accumulate steps and avoid duplicates
+    const allSteps = [];
+    for (const [itemName, quantity] of shoppingList.entries()) {
+        getCraftingSteps(itemName, quantity, recipes, rawMaterials, allSteps, 1, new Set());
+    }
+    // Topological sort: ensure dependencies come before their consumers
+    // We'll use a simple stable sort by depth (inputs first)
+    const stepDepth = {};
+    function calcDepth(item) {
+        if (rawMaterials.has(item) || !recipes[item]) return 0;
+        const inputs = Object.keys(recipes[item].inputs || {});
+        if (inputs.length === 0) return 1;
+        return 1 + Math.max(...inputs.map(calcDepth));
+    }
+    allSteps.forEach(step => {
+        step.depth = calcDepth(step.item);
+    });
+    allSteps.sort((a, b) => a.depth - b.depth);
+    // Remove duplicates (keep the one with the highest quantity)
+    const seen = new Map();
+    for (const step of allSteps) {
+        if (!seen.has(step.item) || step.quantity > seen.get(step.item).quantity) {
+            seen.set(step.item, step);
+        }
+    }
+    return Array.from(seen.values());
+}
+
+function renderCraftingSteps() {
+    const listElement = document.getElementById('crafting-steps-list');
+    listElement.innerHTML = '';
+    if (window.shoppingList.size === 0) {
+        listElement.innerHTML = '<li class="text-gray-500 italic">List is empty</li>';
+        return;
+    }
+    const steps = getOrderedCraftingSteps(window.shoppingList, window.recipesData, window.rawMaterialsSet);
+    if (steps.length === 0) {
+        listElement.innerHTML = '<li class="text-gray-500 italic">No crafting steps required.</li>';
+        return;
+    }
+    steps.forEach(step => {
+        const inputStr = step.inputs.map(i => `${i.qty} × ${i.name}`).join(', ');
+        const workstationStr = step.workstation && step.workstation !== 'Unknown' ? ` at <span class="font-semibold text-blue-300">${step.workstation}</span>` : '';
+        const li = document.createElement('li');
+        li.className = 'mb-2';
+        li.innerHTML = `Craft <span class="font-semibold text-green-300">${step.quantity}</span> <span class="font-semibold text-gray-100">${step.item}</span> with <span class="text-gray-200">${inputStr}</span>${workstationStr}`;
+        listElement.appendChild(li);
+    });
+}
+
 // --- DOM Update Functions ---
 function renderShoppingList() {
     const listElement = document.getElementById('shopping-list-items');
@@ -139,6 +222,7 @@ function renderShoppingList() {
 
     // Add event listeners after rendering
     addShoppingListEventListeners();
+    renderCraftingSteps();
 }
 
 function renderTotalMaterials() {
@@ -185,6 +269,7 @@ function renderTotalMaterials() {
             listElement.appendChild(li);
         });
     }
+    renderCraftingSteps();
 }
 
 // --- Event Handling ---
