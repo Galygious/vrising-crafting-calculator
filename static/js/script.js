@@ -289,17 +289,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const itemSelect = document.getElementById('item-select');
     const listErrorMsg = document.getElementById('list-error-message');
     const addErrorMsg = document.getElementById('add-error-message');
-    const addToListButton = document.getElementById('add-to-list-button'); 
 
     // Initial UI state checks
-    if (!itemSelect || !addToListButton || !listErrorMsg || !addErrorMsg) {
-        console.error("Fatal Error: One or more critical UI elements are missing!");
+    if (!itemSelect || !listErrorMsg || !addErrorMsg) {
+        console.error("Fatal Error: One or more critical UI elements are missing (select/error msg)!");
         document.body.innerHTML = '<p class="text-red-500 p-4">Fatal Error: UI elements missing. Cannot initialize calculator.</p>';
-        return; // Stop execution if essential elements are missing
+        return; // Stop execution
     }
 
-    addToListButton.disabled = true; // Disable button until data loads
+    // Initial state for elements we know exist
     itemSelect.innerHTML = '<option value="">Loading data...</option>'; // Initial loading message
+    itemSelect.disabled = true; // Disable select until data loads
 
     // Fetch data
     Promise.all([
@@ -327,21 +327,33 @@ document.addEventListener('DOMContentLoaded', () => {
         })).sort((a, b) => a.name.localeCompare(b.name));
 
         // Populate dropdown
-        itemSelect.innerHTML = '<option value="">-- Select Item --</option>'; // Clear loading message
+        itemSelect.innerHTML = '<option value="">-- Select Item --</option>'; 
         window.recipeMeta.forEach(recipe => {
             const option = document.createElement('option');
             option.value = recipe.name;
             option.textContent = recipe.name;
             itemSelect.appendChild(option);
         });
+        
+        // Enable item select now that it's populated
+        itemSelect.disabled = false;
 
-        // Enable interaction now that data is loaded
-        addToListButton.disabled = false;
-        addToListButton.addEventListener('click', handleAddItem);
-        console.log("Add button listener attached.");
+        // --- Defer button selection and listener attachment --- 
+        setTimeout(() => {
+             console.log("Attempting to attach listener post-timeout");
+             const addToListButton = document.getElementById('add-to-list-button');
+             if (addToListButton) {
+                 addToListButton.disabled = false; // Enable interaction
+                 addToListButton.addEventListener('click', handleAddItem);
+                 console.log("Add button listener attached successfully.");
+             } else {
+                 console.error("Could not find 'add-to-list-button' even after timeout!");
+                 if(addErrorMsg) addErrorMsg.textContent = "Error: Add button UI element missing.";
+             }
+        }, 0); // Zero delay pushes to end of execution queue
 
-        // Initial render of lists
-        renderShoppingList();
+        // Initial render of lists (safe to do now)
+        renderShoppingList(); 
         renderTotalMaterials();
         console.log("Initial render complete.");
 
@@ -350,13 +362,14 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Error loading data files:', error);
         const errorTarget = addErrorMsg || listErrorMsg || document.body;
         errorTarget.textContent = `Fatal Error loading data: ${error.message}. Please refresh.`;
-        errorTarget.classList.remove('h-4'); // Ensure error message is visible
+        errorTarget.classList.remove('h-4'); 
         itemSelect.innerHTML = '<option value="">Error</option>';
         itemSelect.disabled = true;
-        addToListButton.disabled = true;
+        // Attempt to disable button if it exists, even on error
+        const addToListButton = document.getElementById('add-to-list-button');
+        if (addToListButton) addToListButton.disabled = true;
     });
 
-    // NO other listeners should be attached here at the top level
     console.log("Initialization script finished.");
 
 }); // End of DOMContentLoaded 
