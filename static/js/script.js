@@ -207,9 +207,6 @@ function handleAddItem() {
 
     renderShoppingList();
     renderTotalMaterials();
-    
-    // Optional: Reset quantity input after adding
-    // quantityInput.value = 1;
 }
 
 function updateItemQuantity(itemName, newQuantity) {
@@ -285,7 +282,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let recipeMeta = []; // To store just names and image paths for dropdown
 
-    // --- Fetch Data Files --- 
+    // Disable button initially until data loads
+    if (addToListButton) addToListButton.disabled = true;
+
+    // Fetch data and populate initial dropdown
     Promise.all([
         fetch('recipes.json').then(res => {
             if (!res.ok) throw new Error(`Failed to load recipes.json: ${res.statusText} (${res.status})`);
@@ -297,43 +297,47 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     ])
     .then(([recipeJson, rawMaterialList]) => {
-        // Store full data globally
         window.recipesData = recipeJson;
         window.rawMaterialsSet = new Set(rawMaterialList);
         console.log("Data loaded.");
 
-        // Populate dropdown
-        itemSelect.innerHTML = '<option value="">-- Select Item --</option>'; 
-        recipeMeta = Object.entries(recipeJson).map(([name, data]) => ({
+        window.recipeMeta = Object.entries(recipeJson).map(([name, data]) => ({
             name: name,
             image_path: data.local_image_path,
             description: data.description
-        })).sort((a, b) => a.name.localeCompare(b.name)); // Sort alphabetically
-        
-        recipeMeta.forEach(recipe => {
+        })).sort((a, b) => a.name.localeCompare(b.name));
+
+        itemSelect.innerHTML = '<option value="">-- Select Item --</option>';
+        window.recipeMeta.forEach(recipe => {
             const option = document.createElement('option');
             option.value = recipe.name;
             option.textContent = recipe.name;
-            if(recipe.image_path) {
-                option.dataset.imagePath = recipe.image_path; 
-            }
-            if(recipe.description) {
-                option.dataset.description = recipe.description;
-            }
             itemSelect.appendChild(option);
         });
+        
+        // Enable the add button now that data is loaded
+        if (addToListButton) addToListButton.disabled = false;
+        
+        // Add the event listener HERE, after data is loaded and button is known to exist
+        if (addToListButton) {
+            addToListButton.addEventListener('click', handleAddItem);
+        } else {
+             console.error("Could not find the 'Add to List' button element.");
+             if(listErrorMsg) listErrorMsg.textContent = "Error: UI element missing.";
+        }
 
-        // Initial render in case of saved state later
+        // Initial render 
         renderShoppingList(); 
         renderTotalMaterials();
 
     })
     .catch(error => {
         console.error('Error loading data files:', error);
-        errorMessage.textContent = `Fatal Error: ${error.message}. Could not load data files. Refresh?`;
+        const mainErrorDisplay = addErrorMsg || listErrorMsg || document.body; 
+        mainErrorDisplay.textContent = `Fatal Error: ${error.message}. Could not load data files. Refresh?`;
         itemSelect.innerHTML = '<option value="">Error loading</option>';
         itemSelect.disabled = true;
-        addToListButton.disabled = true;
+        if (addToListButton) addToListButton.disabled = true; // Keep disabled on error
     });
 
     // --- Event Listeners --- 
@@ -414,7 +418,4 @@ document.addEventListener('DOMContentLoaded', () => {
             errorMessage.textContent = `Calculation error: ${error.message}`;
         }
     });
-
-    // Add listener for the main add button
-    addToListButton.addEventListener('click', handleAddItem);
 }); 
