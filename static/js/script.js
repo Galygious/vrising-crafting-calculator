@@ -1,6 +1,14 @@
 // Global variables to store fetched data
 window.recipesData = {};
 window.rawMaterialsSet = new Set();
+window.shoppingList = new Map(); // Map<itemName, quantity>
+window.recipeMeta = []; // For storing { name, image_path, description }
+
+// --- Utility Functions ---
+function getSafeQuantity(value) {
+    const num = parseInt(value, 10);
+    return isNaN(num) || num < 1 ? 1 : num;
+}
 
 // --- Recursive Calculation Logic (JavaScript Version) ---
 function getBaseMaterials(itemName, quantity, recipes, rawMaterials) {
@@ -75,12 +83,193 @@ function getBaseMaterials(itemName, quantity, recipes, rawMaterials) {
     // Convert Map to object and round quantities up (ceil) or just round
     const finalMaterials = {};
     for (const [key, value] of baseMaterials.entries()) {
-        finalMaterials[key] = Math.round(value + 0.00001); // Round to nearest integer
+        const roundedValue = Math.round(value + 0.00001);
+        if (roundedValue > 0) {
+            finalMaterials[key] = roundedValue;
+        }
     }
 
     return finalMaterials;
 }
 
+// --- DOM Update Functions ---
+function renderShoppingList() {
+    const listElement = document.getElementById('shopping-list-items');
+    listElement.innerHTML = ''; // Clear current list
+
+    if (window.shoppingList.size === 0) {
+        listElement.innerHTML = '<li class="text-gray-500 italic px-3 py-2">List is empty</li>';
+        return;
+    }
+
+    const sortedList = Array.from(window.shoppingList.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+
+    sortedList.forEach(([itemName, quantity]) => {
+        const meta = window.recipeMeta.find(r => r.name === itemName);
+        const imagePath = meta?.image_path && meta.image_path !== 'null' ? meta.image_path : null;
+
+        const li = document.createElement('li');
+        li.className = 'flex items-center gap-3 px-3 py-2 border-b border-gray-700 last:border-b-0 hover:bg-gray-700 transition duration-150 ease-in-out';
+        li.dataset.itemName = itemName;
+
+        // Image (optional)
+        if (imagePath) {
+            li.innerHTML += `<img src="${imagePath}" alt="${itemName}" class="w-8 h-8 object-contain flex-shrink-0 rounded-sm bg-gray-600 p-0.5">`;
+        } else {
+            li.innerHTML += `<div class="w-8 h-8 flex-shrink-0 rounded-sm bg-gray-600"></div>`; // Placeholder
+        }
+
+        // Name
+        li.innerHTML += `<span class="flex-grow text-sm font-medium text-gray-300">${itemName}</span>`;
+
+        // Quantity Controls
+        li.innerHTML += `
+            <div class="flex items-center gap-1 flex-shrink-0">
+                <button class="decrease-qty-btn p-1 rounded bg-gray-600 hover:bg-red-700 text-white leading-none" data-item="${itemName}">-</button>
+                <input type="number" value="${quantity}" min="1" class="list-quantity-input w-12 text-center p-1 bg-gray-600 border border-gray-500 rounded text-sm" data-item="${itemName}">
+                <button class="increase-qty-btn p-1 rounded bg-gray-600 hover:bg-green-700 text-white leading-none" data-item="${itemName}">+</button>
+            </div>
+        `;
+
+        // Remove Button
+        li.innerHTML += `<button class="remove-item-btn p-1 rounded bg-red-600 hover:bg-red-800 text-white leading-none flex-shrink-0" data-item="${itemName}">&times;</button>`;
+
+        listElement.appendChild(li);
+    });
+
+    // Add event listeners after rendering
+    addShoppingListEventListeners();
+}
+
+function renderTotalMaterials() {
+    const listElement = document.getElementById('total-materials-list');
+    const listErrorMsg = document.getElementById('list-error-message');
+    listElement.innerHTML = '';
+    listErrorMsg.textContent = ''; // Clear previous errors
+
+    if (window.shoppingList.size === 0) {
+        listElement.innerHTML = '<li class="text-gray-500 italic">List is empty</li>';
+        return;
+    }
+
+    const totalBaseMaterials = new Map();
+    let calculationError = false;
+
+    try {
+        for (const [itemName, quantity] of window.shoppingList.entries()) {
+            if (quantity > 0) {
+                const itemMaterials = getBaseMaterials(itemName, quantity, window.recipesData, window.rawMaterialsSet);
+                for (const [material, amount] of Object.entries(itemMaterials)) {
+                    totalBaseMaterials.set(material, (totalBaseMaterials.get(material) || 0) + amount);
+                }
+            }
+        }
+    } catch (error) {
+        console.error("Error during total calculation:", error);
+        listErrorMsg.textContent = `Calculation Error: ${error.message}`; 
+        calculationError = true;
+        listElement.innerHTML = '<li class="text-red-500 italic">Error calculating totals.</li>';
+    }
+
+    if (!calculationError && totalBaseMaterials.size === 0) {
+         listElement.innerHTML = '<li class="text-gray-500 italic">No base materials required.</li>';
+         return;
+    }
+    
+    if (!calculationError) {
+        const sortedMaterials = Array.from(totalBaseMaterials.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+        sortedMaterials.forEach(([material, amount]) => {
+            const li = document.createElement('li');
+            li.className = 'text-sm text-gray-300 py-1 flex justify-between';
+            li.innerHTML = `<span>${material}</span><span class="font-semibold text-gray-100">${amount}</span>`;
+            listElement.appendChild(li);
+        });
+    }
+}
+
+// --- Event Handling ---
+function handleAddItem() {
+    const itemSelect = document.getElementById('item-select');
+    const quantityInput = document.getElementById('quantity-input');
+    const addErrorMsg = document.getElementById('add-error-message');
+    addErrorMsg.textContent = ''; // Clear previous errors
+
+    const itemName = itemSelect.value;
+    const quantity = getSafeQuantity(quantityInput.value);
+
+    if (!itemName) {
+        addErrorMsg.textContent = 'Please select an item.';
+        return;
+    }
+
+    const currentQuantity = window.shoppingList.get(itemName) || 0;
+    window.shoppingList.set(itemName, currentQuantity + quantity);
+
+    renderShoppingList();
+    renderTotalMaterials();
+    
+    // Optional: Reset quantity input after adding
+    // quantityInput.value = 1;
+}
+
+function updateItemQuantity(itemName, newQuantity) {
+    const quantity = getSafeQuantity(newQuantity);
+     if (quantity <= 0) { // Should not happen with getSafeQuantity but safety check
+         window.shoppingList.delete(itemName);
+     } else {
+         window.shoppingList.set(itemName, quantity);
+     }
+     renderShoppingList(); // Re-render to update input value if needed
+     renderTotalMaterials();
+}
+
+function removeItem(itemName) {
+     window.shoppingList.delete(itemName);
+     renderShoppingList();
+     renderTotalMaterials();
+}
+
+function addShoppingListEventListeners() {
+    document.querySelectorAll('.decrease-qty-btn').forEach(button => {
+        button.onclick = (e) => {
+            const itemName = e.target.dataset.item;
+            const currentQuantity = window.shoppingList.get(itemName) || 1;
+            if (currentQuantity > 1) {
+               updateItemQuantity(itemName, currentQuantity - 1);
+            } else {
+               removeItem(itemName); // Remove if quantity becomes 0
+            }
+        };
+    });
+
+    document.querySelectorAll('.increase-qty-btn').forEach(button => {
+        button.onclick = (e) => {
+            const itemName = e.target.dataset.item;
+            const currentQuantity = window.shoppingList.get(itemName) || 0;
+            updateItemQuantity(itemName, currentQuantity + 1);
+        };
+    });
+
+    document.querySelectorAll('.list-quantity-input').forEach(input => {
+        input.onchange = (e) => { // Use onchange to capture final value
+            const itemName = e.target.dataset.item;
+            updateItemQuantity(itemName, e.target.value);
+        };
+         input.onblur = (e) => { // Also update on blur if user clicks away
+             const itemName = e.target.dataset.item;
+             updateItemQuantity(itemName, e.target.value);
+         };
+    });
+
+    document.querySelectorAll('.remove-item-btn').forEach(button => {
+        button.onclick = (e) => {
+            const itemName = e.target.closest('[data-item-name]').dataset.itemName; // Get item name from parent LI
+            removeItem(itemName);
+        };
+    });
+}
+
+// --- Initialization ---
 document.addEventListener('DOMContentLoaded', () => {
     const itemSelect = document.getElementById('item-select');
     const quantityInput = document.getElementById('quantity-input');
@@ -90,6 +279,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const itemImage = document.getElementById('item-image');
     const selectedItemNameDisplay = document.getElementById('selected-item-name');
     const itemDescriptionDisplay = document.getElementById('item-description');
+    const addToListButton = document.getElementById('add-to-list-button');
+    const listErrorMsg = document.getElementById('list-error-message');
 
     let recipeMeta = []; // To store just names and image paths for dropdown
 
@@ -131,11 +322,17 @@ document.addEventListener('DOMContentLoaded', () => {
             itemSelect.appendChild(option);
         });
 
+        // Initial render in case of saved state later
+        renderShoppingList(); 
+        renderTotalMaterials();
+
     })
     .catch(error => {
         console.error('Error loading data files:', error);
         errorMessage.textContent = `Error loading necessary data: ${error.message}`;
         itemSelect.innerHTML = '<option value="">Error loading</option>';
+        itemSelect.disabled = true;
+        addToListButton.disabled = true;
     });
 
     // --- Event Listeners --- 
@@ -216,4 +413,7 @@ document.addEventListener('DOMContentLoaded', () => {
             errorMessage.textContent = `Calculation error: ${error.message}`;
         }
     });
+
+    // Add listener for the main add button
+    addToListButton.addEventListener('click', handleAddItem);
 }); 
