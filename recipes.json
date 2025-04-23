@@ -3448,7 +3448,7 @@
     "Pollen": {
         "description": "A powdery substance useful for dyeing and strengthening threads & fabrics.\n\nRefined at a Grinder.",
         "inputs": {
-            "Fire Blossom": 20
+            "Any Flower": 20
         },
         "local_image_path": "images/items/Stunlock_Icon_Pollen.webp",
         "output_qty": 10,
