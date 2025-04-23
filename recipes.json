@@ -800,7 +800,8 @@
     "Coarse Thread": {
         "description": "A sturdy thread spun from plant fibre. Basic material used when tailoring various items.\n\nProduced at a Loom.",
         "inputs": {
-            "Plant Fibre": 12
+            "Plant Fibre": 8,
+            "Pollen": 12,
         },
         "local_image_path": "images/items/Poneti_Icon_Tailoring_03_thread.webp",
         "output_qty": 1,
